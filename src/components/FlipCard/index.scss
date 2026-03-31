@@ -1,0 +1,68 @@
+.flip-card {
+  width: 100%;
+  aspect-ratio: 0.85;
+  perspective: 1000rpx;
+  transition: transform 0.3s ease;
+
+  &:active { transform: scale(0.96); }
+
+  &__inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+  }
+
+  &--flipped &__inner {
+    transform: rotateY(180deg);
+  }
+
+  &__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 28rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6rpx 24rpx rgba(0, 0, 0, 0.1);
+  }
+
+  &__back {
+    background: linear-gradient(145deg, #7C5CFC 0%, #9B7FFF 50%, #A78BFA 100%);
+  }
+
+  &__question {
+    font-size: 72rpx;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &__front {
+    background: #fff;
+    transform: rotateY(180deg);
+    padding: 16rpx;
+  }
+
+  &__content {
+    font-size: 72rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+  }
+
+  &__label {
+    font-size: 24rpx;
+    color: #8888AA;
+    margin-top: 8rpx;
+  }
+
+  &--matched {
+    opacity: 0;
+    transform: scale(0.85);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+  }
+}

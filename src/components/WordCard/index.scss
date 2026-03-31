@@ -1,0 +1,43 @@
+.word-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 24rpx;
+  padding: 24rpx 16rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+  border: 4rpx solid transparent;
+  transition: all 0.2s ease;
+  min-height: 200rpx;
+
+  &:active { transform: scale(0.96); }
+
+  &__emoji {
+    font-size: 100rpx;
+    margin-bottom: 12rpx;
+  }
+
+  &__word {
+    font-size: 36rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+  }
+
+  &--correct {
+    border-color: #6BCB77;
+    background: #EAFBEC;
+    animation: bounceIn 0.4s ease-out;
+    box-shadow: 0 0 20rpx rgba(107, 203, 119, 0.3);
+  }
+
+  &--wrong {
+    border-color: #FF6B6B;
+    animation: shake 0.4s ease-out;
+  }
+
+  &--selected {
+    border-color: #7C5CFC;
+    box-shadow: 0 0 16rpx rgba(124, 92, 252, 0.2);
+  }
+}

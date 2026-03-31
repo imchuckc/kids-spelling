@@ -1,0 +1,148 @@
+.rewards {
+  min-height: 100vh;
+  padding: 20rpx 30rpx 60rpx;
+
+  // Header
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 24rpx;
+    margin-bottom: 30rpx;
+  }
+
+  &__stars-box {
+    display: flex;
+    align-items: center;
+    gap: 10rpx;
+    background: #fff;
+    border-radius: 24rpx;
+    padding: 20rpx 28rpx;
+    box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+  }
+
+  &__star-big {
+    font-size: 44rpx;
+  }
+
+  &__star-total {
+    font-size: 40rpx;
+    font-weight: 800;
+    color: #FFB800;
+  }
+
+  &__level-box {
+    flex: 1;
+    background: #fff;
+    border-radius: 24rpx;
+    padding: 16rpx 24rpx;
+    box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__level-icon {
+    font-size: 32rpx;
+  }
+
+  &__level-name {
+    font-size: 28rpx;
+    font-weight: 700;
+    color: #7C5CFC;
+  }
+
+  &__level-progress {
+    font-size: 20rpx;
+    color: #8888AA;
+    margin-top: 2rpx;
+  }
+
+  // Sections
+  &__section {
+    margin-bottom: 30rpx;
+  }
+
+  &__section-title {
+    font-size: 30rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+    margin-bottom: 16rpx;
+  }
+
+  // Check-in row
+  &__checkin-row {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 24rpx;
+    padding: 20rpx 16rpx;
+    box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.04);
+  }
+
+  &__checkin-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rpx;
+  }
+
+  &__checkin-label {
+    font-size: 20rpx;
+    color: #8888AA;
+  }
+
+  &__checkin-icon {
+    font-size: 36rpx;
+  }
+
+  &__checkin-day--done &__checkin-label {
+    color: #6BCB77;
+    font-weight: 700;
+  }
+
+  // Categories
+  &__cat {
+    margin-bottom: 20rpx;
+  }
+
+  &__cat-title {
+    font-size: 24rpx;
+    font-weight: 600;
+    color: #7C5CFC;
+    margin-bottom: 12rpx;
+  }
+
+  &__cat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16rpx;
+  }
+
+  &__sticker {
+    width: 120rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F3FF;
+    border-radius: 16rpx;
+    padding: 12rpx 8rpx;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+
+    &--unlocked {
+      opacity: 1;
+      background: #fff;
+      box-shadow: 0 2rpx 10rpx rgba(124, 92, 252, 0.1);
+    }
+  }
+
+  &__sticker-emoji {
+    font-size: 40rpx;
+    margin-bottom: 4rpx;
+  }
+
+  &__sticker-word {
+    font-size: 18rpx;
+    font-weight: 600;
+    color: #2D2D3F;
+  }
+}

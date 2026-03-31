@@ -1,0 +1,84 @@
+$ring-color: #7C5CFC;
+$track-color: #E8DEFF;
+$center-color: #fff;
+$border-w: 12rpx;
+
+.p-ring {
+  position: relative;
+  border-radius: 50%;
+
+  &__track {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 50%;
+    border: $border-w solid $track-color;
+    box-sizing: border-box;
+  }
+
+  &__half {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+    &--right {
+      right: 0;
+    }
+
+    &--left {
+      left: 0;
+    }
+  }
+
+  &__fill {
+    position: absolute;
+    top: 0;
+    width: 200%;
+    height: 100%;
+    border-radius: 50%;
+    border: $border-w solid transparent;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+  }
+
+  &__half--right &__fill {
+    left: -100%;
+    border-right-color: $ring-color;
+    border-top-color: $ring-color;
+    transform-origin: center right;
+  }
+
+  &__half--left &__fill {
+    right: -100%;
+    border-left-color: $ring-color;
+    border-bottom-color: $ring-color;
+    transform-origin: center left;
+  }
+
+  &__center {
+    position: absolute;
+    top: $border-w + 4rpx;
+    left: $border-w + 4rpx;
+    right: $border-w + 4rpx;
+    bottom: $border-w + 4rpx;
+    border-radius: 50%;
+    background: $center-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__number {
+    font-size: 26rpx;
+    font-weight: 700;
+    color: $ring-color;
+  }
+
+  &__label {
+    font-size: 16rpx;
+    color: #8888AA;
+    margin-top: 2rpx;
+  }
+}

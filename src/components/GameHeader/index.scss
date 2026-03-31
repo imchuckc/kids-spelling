@@ -1,0 +1,45 @@
+.game-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16rpx 10rpx;
+  margin-bottom: 20rpx;
+
+  &__stars {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30rpx;
+    padding: 10rpx 20rpx;
+  }
+
+  &__star-icon {
+    font-size: 36rpx;
+    margin-right: 6rpx;
+  }
+
+  &__star-count {
+    font-size: 34rpx;
+    font-weight: 700;
+    color: #FFB800;
+  }
+
+  &__title {
+    font-size: 36rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+  }
+
+  &__progress {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30rpx;
+    padding: 10rpx 20rpx;
+  }
+
+  &__progress-text {
+    font-size: 30rpx;
+    font-weight: 600;
+    color: #7C5CFC;
+  }
+}

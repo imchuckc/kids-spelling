@@ -1,0 +1,104 @@
+.result-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  &__card {
+    position: relative;
+    width: 580rpx;
+    background: #fff;
+    border-radius: 36rpx;
+    padding: 50rpx 40rpx 40rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 20rpx 60rpx rgba(0, 0, 0, 0.15);
+  }
+
+  &__trophy {
+    font-size: 80rpx;
+    margin-bottom: 16rpx;
+  }
+
+  &__message {
+    font-size: 40rpx;
+    font-weight: 800;
+    color: #2D2D3F;
+    margin-bottom: 24rpx;
+  }
+
+  &__stars {
+    display: flex;
+    gap: 16rpx;
+    margin-bottom: 24rpx;
+  }
+
+  &__star {
+    font-size: 56rpx;
+    opacity: 0.2;
+    transition: opacity 0.3s, transform 0.3s;
+
+    &--active {
+      opacity: 1;
+      animation: bounceIn 0.5s ease-out;
+
+      &:nth-child(2) { animation-delay: 0.15s; }
+      &:nth-child(3) { animation-delay: 0.3s; }
+    }
+  }
+
+  &__stats {
+    margin-bottom: 32rpx;
+  }
+
+  &__stat {
+    font-size: 28rpx;
+    color: #8888AA;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 16rpx;
+    width: 100%;
+  }
+
+  &__btn {
+    width: 100%;
+    padding: 24rpx;
+    border-radius: 24rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s ease;
+
+    &:active { transform: scale(0.96); }
+
+    &--primary {
+      background: linear-gradient(135deg, #7C5CFC 0%, #A78BFA 100%);
+    }
+
+    &--secondary {
+      background: #F5F3FF;
+    }
+  }
+
+  &__btn-text {
+    font-size: 30rpx;
+    font-weight: 700;
+    color: #fff;
+
+    &--secondary {
+      color: #7C5CFC;
+    }
+  }
+}

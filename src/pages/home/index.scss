@@ -1,0 +1,418 @@
+.home {
+  min-height: 100vh;
+  padding: 30rpx 30rpx 40rpx;
+  position: relative;
+  overflow: hidden;
+
+  // Floating background letters
+  &__bg-letters {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &__bg-letter {
+    position: absolute;
+    font-size: 80rpx;
+    font-weight: 900;
+    color: rgba(124, 92, 252, 0.06);
+    animation: floatLetter 6s ease-in-out infinite;
+
+    &:nth-child(1) { top: 10%; left: 5%; }
+    &:nth-child(2) { top: 30%; right: 8%; }
+    &:nth-child(3) { top: 55%; left: 12%; }
+    &:nth-child(4) { top: 70%; right: 15%; }
+    &:nth-child(5) { top: 85%; left: 50%; }
+  }
+
+  // Course selector bar
+  &__course-bar {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 24rpx;
+    padding: 16rpx 24rpx;
+    margin-bottom: 16rpx;
+    box-shadow: 0 4rpx 16rpx rgba(124, 92, 252, 0.1);
+    position: relative;
+    z-index: 1;
+
+    &:active { transform: scale(0.98); }
+  }
+
+  &__course-icon {
+    font-size: 40rpx;
+    margin-right: 16rpx;
+  }
+
+  &__course-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__course-label {
+    font-size: 30rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+  }
+
+  &__course-desc {
+    font-size: 22rpx;
+    color: #8888AA;
+    margin-top: 2rpx;
+  }
+
+  &__course-arrow {
+    font-size: 20rpx;
+    color: #8888AA;
+    margin-left: 8rpx;
+  }
+
+  // Header
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20rpx 10rpx 30rpx;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__progress-wrap {
+    flex-shrink: 0;
+  }
+
+  &__star-box {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 40rpx;
+    padding: 16rpx 28rpx;
+    box-shadow: 0 4rpx 16rpx rgba(124, 92, 252, 0.1);
+  }
+
+  &__star-icon {
+    font-size: 40rpx;
+    margin-right: 10rpx;
+  }
+
+  &__star-count {
+    font-size: 36rpx;
+    font-weight: 700;
+    color: #FFB800;
+  }
+
+  // Game mode cards - 2x2 grid
+  &__modes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24rpx;
+    padding: 10rpx 0 30rpx;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__mode-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40rpx 20rpx;
+    border-radius: 32rpx;
+    box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.08);
+    min-height: 220rpx;
+    transition: transform 0.15s ease;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &__mode-icon {
+    font-size: 64rpx;
+    margin-bottom: 12rpx;
+  }
+
+  &__mode-title {
+    font-size: 32rpx;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4rpx;
+  }
+
+  &__mode-subtitle {
+    font-size: 22rpx;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+  }
+
+  // Floating magic dock
+  &__dock {
+    position: relative;
+    z-index: 10;
+    padding: 16rpx 0 0;
+  }
+
+  &__dock-inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 28rpx;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 40rpx;
+    padding: 20rpx 32rpx 16rpx;
+    box-shadow:
+      0 -4rpx 24rpx rgba(124, 92, 252, 0.08),
+      0 8rpx 32rpx rgba(124, 92, 252, 0.12);
+    backdrop-filter: blur(20px);
+  }
+
+  &__dock-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    transition: transform 0.2s ease;
+
+    &:active { transform: scale(0.88); }
+
+    &--center { margin-top: -36rpx; }
+  }
+
+  &__dock-bubble {
+    width: 88rpx;
+    height: 88rpx;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8rpx;
+    box-shadow: 0 6rpx 16rpx rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &--amber {
+      background: linear-gradient(145deg, #FFE082, #FFB300);
+      box-shadow: 0 6rpx 20rpx rgba(255, 179, 0, 0.3);
+    }
+    &--blue {
+      background: linear-gradient(145deg, #90CAF9, #42A5F5);
+      box-shadow: 0 6rpx 20rpx rgba(66, 165, 245, 0.3);
+    }
+    &--pink {
+      background: linear-gradient(145deg, #F8BBD0, #EC407A);
+      box-shadow: 0 6rpx 20rpx rgba(236, 64, 122, 0.3);
+    }
+  }
+
+  &__dock-icon {
+    font-size: 40rpx;
+  }
+
+  &__dock-crown {
+    width: 108rpx;
+    height: 108rpx;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #FFD54F, #FF8F00);
+    box-shadow:
+      0 8rpx 28rpx rgba(255, 143, 0, 0.4),
+      inset 0 2rpx 4rpx rgba(255, 255, 255, 0.4);
+    margin-bottom: 8rpx;
+    animation: crownFloat 3s ease-in-out infinite;
+    border: 4rpx solid rgba(255, 255, 255, 0.6);
+  }
+
+  &__dock-crown-icon {
+    font-size: 52rpx;
+  }
+
+  &__dock-label {
+    font-size: 22rpx;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: 1rpx;
+
+    &--gold {
+      color: #FF8F00;
+      font-weight: 800;
+    }
+  }
+
+  @keyframes crownFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8rpx); }
+  }
+
+  // Course picker modal
+  &__picker {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  &__picker-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  &__picker-sheet {
+    position: relative;
+    background: #F8F5FF;
+    border-radius: 36rpx 36rpx 0 0;
+    padding: 0 30rpx;
+    padding-bottom: calc(30rpx + env(safe-area-inset-bottom));
+    max-height: 82vh;
+    animation: slideUp 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__picker-handle {
+    width: 64rpx;
+    height: 8rpx;
+    background: #DDD;
+    border-radius: 4rpx;
+    margin: 16rpx auto 20rpx;
+  }
+
+  &__picker-title {
+    font-size: 36rpx;
+    font-weight: 800;
+    color: #2D2D3F;
+    margin-bottom: 24rpx;
+    text-align: center;
+  }
+
+  &__picker-scroll {
+    max-height: 65vh;
+  }
+
+  // Accordion book cards
+  &__picker-book {
+    margin-bottom: 16rpx;
+    border-radius: 24rpx;
+    overflow: hidden;
+    box-shadow: 0 4rpx 16rpx rgba(124, 92, 252, 0.08);
+  }
+
+  &__picker-book-head {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 28rpx 24rpx;
+    transition: background 0.2s;
+
+    &:active { background: #F5F3FF; }
+
+    &--open {
+      background: linear-gradient(135deg, #7C5CFC, #9B7FFF);
+
+      .home__picker-book-name { color: #fff; }
+      .home__picker-book-desc { color: rgba(255, 255, 255, 0.8); }
+      .home__picker-book-arrow { color: rgba(255, 255, 255, 0.8); }
+    }
+  }
+
+  &__picker-book-icon {
+    font-size: 44rpx;
+    margin-right: 16rpx;
+    flex-shrink: 0;
+  }
+
+  &__picker-book-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__picker-book-name {
+    display: block;
+    font-size: 30rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+    line-height: 1.3;
+  }
+
+  &__picker-book-desc {
+    display: block;
+    font-size: 22rpx;
+    color: #8888AA;
+    margin-top: 4rpx;
+    line-height: 1.3;
+  }
+
+  &__picker-book-arrow {
+    font-size: 20rpx;
+    color: #BBB;
+    margin-left: 12rpx;
+    flex-shrink: 0;
+  }
+
+  &__picker-book-levels {
+    background: #fff;
+    padding: 12rpx 16rpx 4rpx;
+  }
+
+  &__picker-level {
+    display: flex;
+    align-items: center;
+    padding: 24rpx 16rpx;
+    border-radius: 20rpx;
+    border: 3rpx solid transparent;
+    background: #F8F7FF;
+    margin-bottom: 12rpx;
+
+    &:active { transform: scale(0.98); }
+
+    &--active {
+      border-color: #7C5CFC;
+      background: #F0EBFF;
+    }
+  }
+
+  &__picker-level-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__picker-level-label {
+    font-size: 30rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+  }
+
+  &__picker-level-desc {
+    font-size: 22rpx;
+    color: #8888AA;
+    margin-top: 2rpx;
+  }
+
+  &__picker-level-count {
+    font-size: 24rpx;
+    color: #7C5CFC;
+    font-weight: 600;
+    margin-right: 12rpx;
+  }
+
+  &__picker-level-check {
+    font-size: 36rpx;
+    font-weight: 800;
+    color: #7C5CFC;
+  }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}

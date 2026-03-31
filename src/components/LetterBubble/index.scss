@@ -1,0 +1,43 @@
+.letter-bubble {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7C5CFC 0%, #A78BFA 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6rpx 16rpx rgba(124, 92, 252, 0.3);
+  transition: transform 0.1s ease;
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &__text {
+    font-size: 40rpx;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  &--correct {
+    animation: bounceIn 0.4s ease-out;
+    background: linear-gradient(135deg, #6BCB77 0%, #8FE89A 100%);
+    pointer-events: none;
+  }
+
+  &--wrong {
+    animation: shake 0.4s ease-out;
+    background: linear-gradient(135deg, #FF6B6B 0%, #FF9999 100%);
+  }
+
+  &--used {
+    opacity: 0.25;
+    transform: scale(0.85);
+    pointer-events: none;
+  }
+
+  &--disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}

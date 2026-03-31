@@ -1,0 +1,204 @@
+.member {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #7C5CFC 0%, #9B7FFF 35%, #F5F3FF 35%);
+  padding: 0 30rpx 60rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // Header
+  &__header {
+    padding: 60rpx 0 40rpx;
+    text-align: center;
+  }
+
+  &__crown {
+    font-size: 96rpx;
+    display: block;
+    margin-bottom: 12rpx;
+  }
+
+  &__title {
+    display: block;
+    font-size: 48rpx;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  &__status {
+    display: block;
+    font-size: 26rpx;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10rpx;
+
+    &--active {
+      color: #FFD93D;
+      font-weight: 600;
+    }
+  }
+
+  // Benefits
+  &__benefits {
+    width: 100%;
+    background: #fff;
+    border-radius: 28rpx;
+    padding: 32rpx 36rpx;
+    box-shadow: 0 8rpx 32rpx rgba(124, 92, 252, 0.1);
+    margin-bottom: 32rpx;
+  }
+
+  &__benefit {
+    display: flex;
+    align-items: center;
+    padding: 14rpx 0;
+  }
+
+  &__benefit-icon {
+    font-size: 36rpx;
+    margin-right: 20rpx;
+    flex-shrink: 0;
+  }
+
+  &__benefit-text {
+    font-size: 28rpx;
+    color: #2D2D3F;
+    font-weight: 500;
+  }
+
+  // Plan cards
+  &__plans {
+    display: flex;
+    width: 100%;
+    gap: 20rpx;
+    margin-bottom: 36rpx;
+  }
+
+  &__plan {
+    flex: 1;
+    position: relative;
+    background: #fff;
+    border-radius: 24rpx;
+    padding: 32rpx 16rpx 28rpx;
+    text-align: center;
+    border: 4rpx solid transparent;
+    box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+
+    &:active { transform: scale(0.97); }
+
+    &--active {
+      border-color: #7C5CFC;
+      background: #F8F5FF;
+      box-shadow: 0 4rpx 24rpx rgba(124, 92, 252, 0.18);
+    }
+  }
+
+  &__plan-tag {
+    position: absolute;
+    top: -16rpx;
+    right: 16rpx;
+    background: #FF6B9D;
+    color: #fff;
+    font-size: 20rpx;
+    font-weight: 600;
+    padding: 4rpx 16rpx;
+    border-radius: 12rpx;
+  }
+
+  &__plan-badge {
+    position: absolute;
+    top: -16rpx;
+    left: 16rpx;
+    background: linear-gradient(135deg, #FFB800, #FF8C00);
+    color: #fff;
+    font-size: 20rpx;
+    font-weight: 700;
+    padding: 4rpx 16rpx;
+    border-radius: 12rpx;
+  }
+
+  &__plan-label {
+    display: block;
+    font-size: 28rpx;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 12rpx;
+  }
+
+  &__plan-price-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 4rpx;
+  }
+
+  &__plan-currency {
+    font-size: 28rpx;
+    font-weight: 700;
+    color: #7C5CFC;
+    margin-right: 4rpx;
+  }
+
+  &__plan-price {
+    font-size: 60rpx;
+    font-weight: 800;
+    color: #7C5CFC;
+    line-height: 1;
+  }
+
+  &__plan-unit {
+    display: block;
+    font-size: 22rpx;
+    color: #999;
+    margin-top: 4rpx;
+  }
+
+  // Pay button
+  &__pay-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #7C5CFC, #A78BFA);
+    border-radius: 48rpx;
+    padding: 30rpx;
+    text-align: center;
+    box-shadow: 0 10rpx 32rpx rgba(124, 92, 252, 0.35);
+    transition: all 0.2s ease;
+
+    &:active { transform: scale(0.97); opacity: 0.9; }
+
+    &--loading {
+      opacity: 0.65;
+      pointer-events: none;
+    }
+  }
+
+  &__pay-btn-text {
+    color: #fff;
+    font-size: 32rpx;
+    font-weight: 700;
+  }
+
+  // Mock mode indicator
+  &__mock-badge {
+    margin-top: 24rpx;
+    background: #FFF8E1;
+    border: 2rpx solid #FFD93D;
+    border-radius: 16rpx;
+    padding: 12rpx 28rpx;
+  }
+
+  &__mock-text {
+    font-size: 22rpx;
+    color: #B8860B;
+    font-weight: 500;
+  }
+
+  // Footer
+  &__footer {
+    display: block;
+    text-align: center;
+    font-size: 22rpx;
+    color: #BBB;
+    margin-top: 24rpx;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}

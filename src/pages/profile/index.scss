@@ -1,0 +1,374 @@
+.profile {
+  min-height: 100vh;
+  background: #F8F5FF;
+  padding-bottom: 40rpx;
+  position: relative;
+  overflow: hidden;
+
+  // Sparkle decorations
+  &__bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &__sparkle {
+    position: absolute;
+    animation: sparkle 4s ease-in-out infinite;
+
+    &--1 { top: 6%; left: 8%; font-size: 32rpx; animation-delay: 0s; }
+    &--2 { top: 12%; right: 12%; font-size: 28rpx; animation-delay: 1s; }
+    &--3 { top: 3%; left: 60%; font-size: 24rpx; animation-delay: 2s; }
+    &--4 { top: 18%; right: 30%; font-size: 20rpx; animation-delay: 0.5s; }
+  }
+
+  // Hero card
+  &__hero {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(160deg, #7C5CFC 0%, #A78BFA 50%, #C4B5FD 100%);
+    padding: 56rpx 30rpx 40rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 48rpx 48rpx;
+    box-shadow: 0 12rpx 40rpx rgba(124, 92, 252, 0.25);
+  }
+
+  &__avatar {
+    position: relative;
+    width: 140rpx;
+    height: 140rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16rpx;
+
+    &--guest { opacity: 0.8; }
+  }
+
+  &__avatar-face {
+    font-size: 80rpx;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__avatar-ring {
+    position: absolute;
+    top: -8rpx; left: -8rpx; right: -8rpx; bottom: -8rpx;
+    border-radius: 50%;
+    border: 4rpx solid rgba(255, 215, 0, 0.6);
+    animation: ringPulse 3s ease-in-out infinite;
+  }
+
+  &__name {
+    font-size: 38rpx;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.15);
+  }
+
+  &__badge {
+    margin-top: 12rpx;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2rpx solid rgba(255, 255, 255, 0.4);
+    border-radius: 24rpx;
+    padding: 8rpx 24rpx;
+    backdrop-filter: blur(10px);
+
+    &--vip {
+      background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(255, 143, 0, 0.3));
+      border-color: rgba(255, 215, 0, 0.6);
+    }
+  }
+
+  &__badge-text {
+    font-size: 24rpx;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  &__login-btn {
+    background: linear-gradient(135deg, #FFD54F, #FF8F00);
+    border-radius: 40rpx;
+    padding: 18rpx 56rpx;
+    margin-top: 12rpx;
+    display: flex;
+    align-items: center;
+    gap: 8rpx;
+    box-shadow: 0 8rpx 24rpx rgba(255, 143, 0, 0.35);
+
+    &:active { transform: scale(0.95); }
+    &--loading { opacity: 0.7; pointer-events: none; }
+  }
+
+  &__login-icon { font-size: 28rpx; }
+
+  &__login-text {
+    font-size: 30rpx;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &__login-hint {
+    display: block;
+    font-size: 22rpx;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 12rpx;
+  }
+
+  // Stats - treasure cards
+  &__stats {
+    display: flex;
+    margin: -28rpx 30rpx 24rpx;
+    background: #fff;
+    border-radius: 28rpx;
+    padding: 28rpx 12rpx;
+    box-shadow: 0 8rpx 32rpx rgba(124, 92, 252, 0.1);
+    position: relative;
+    z-index: 2;
+  }
+
+  &__stat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rpx;
+  }
+
+  &__stat-icon { font-size: 36rpx; }
+
+  &__stat-num {
+    font-size: 40rpx;
+    font-weight: 800;
+    color: #7C5CFC;
+    line-height: 1.2;
+  }
+
+  &__stat-label {
+    font-size: 20rpx;
+    color: #999;
+    font-weight: 500;
+  }
+
+  // Section head
+  &__section-head {
+    display: flex;
+    align-items: center;
+    gap: 10rpx;
+    margin-bottom: 20rpx;
+  }
+
+  &__section-icon { font-size: 32rpx; }
+
+  &__section-title {
+    font-size: 30rpx;
+    font-weight: 800;
+    color: #2D2D3F;
+  }
+
+  // Today's adventure
+  &__today {
+    margin: 0 30rpx 24rpx;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__today-cards {
+    display: flex;
+    gap: 20rpx;
+  }
+
+  &__today-card {
+    flex: 1;
+    border-radius: 24rpx;
+    padding: 24rpx 20rpx;
+    text-align: center;
+    box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.06);
+
+    &--words {
+      background: linear-gradient(145deg, #E8F5E9, #C8E6C9);
+      box-shadow: 0 6rpx 20rpx rgba(76, 175, 80, 0.15);
+    }
+    &--games {
+      background: linear-gradient(145deg, #E3F2FD, #BBDEFB);
+      box-shadow: 0 6rpx 20rpx rgba(33, 150, 243, 0.15);
+    }
+  }
+
+  &__today-emoji { font-size: 40rpx; display: block; margin-bottom: 8rpx; }
+
+  &__today-num {
+    display: block;
+    font-size: 48rpx;
+    font-weight: 800;
+    color: #2D2D3F;
+    line-height: 1.2;
+  }
+
+  &__today-label {
+    display: block;
+    font-size: 22rpx;
+    color: #666;
+    margin-top: 4rpx;
+  }
+
+  // Calendar
+  &__calendar {
+    margin: 0 30rpx 24rpx;
+    background: #fff;
+    border-radius: 28rpx;
+    padding: 28rpx 24rpx;
+    box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.04);
+    position: relative;
+    z-index: 1;
+  }
+
+  &__cal-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16rpx;
+  }
+
+  &__cal-month {
+    font-size: 28rpx;
+    font-weight: 700;
+    color: #2D2D3F;
+  }
+
+  &__cal-arrow {
+    font-size: 24rpx;
+    color: #7C5CFC;
+    padding: 8rpx 20rpx;
+    &:active { opacity: 0.4; }
+  }
+
+  &__cal-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 8rpx;
+  }
+
+  &__cal-wd {
+    text-align: center;
+    font-size: 22rpx;
+    color: #BBB;
+    font-weight: 600;
+  }
+
+  &__cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8rpx 0;
+  }
+
+  &__cal-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 76rpx;
+    border-radius: 16rpx;
+    position: relative;
+
+    &--empty { visibility: hidden; }
+
+    &--checked {
+      background: linear-gradient(145deg, #FFF8E1, #FFECB3);
+    }
+
+    &--today {
+      border: 3rpx solid #7C5CFC;
+    }
+
+    &--checked#{&}--today {
+      background: linear-gradient(145deg, #EDE7F6, #D1C4E9);
+      border-color: #7C5CFC;
+    }
+  }
+
+  &__cal-num {
+    font-size: 24rpx;
+    font-weight: 600;
+    color: #2D2D3F;
+    line-height: 1;
+  }
+
+  &__cal-star {
+    font-size: 16rpx;
+    margin-top: 2rpx;
+  }
+
+  // Menu
+  &__menu {
+    margin: 0 30rpx 24rpx;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__menu-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 24rpx;
+    padding: 28rpx 24rpx;
+    margin-bottom: 16rpx;
+    box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.04);
+    transition: transform 0.15s ease;
+
+    &:active { transform: scale(0.98); }
+
+    &--logout {
+      background: #FFF5F5;
+      box-shadow: 0 4rpx 16rpx rgba(244, 67, 54, 0.06);
+    }
+  }
+
+  &__menu-icon {
+    font-size: 36rpx;
+    margin-right: 16rpx;
+  }
+
+  &__menu-text {
+    flex: 1;
+    font-size: 28rpx;
+    font-weight: 600;
+    color: #2D2D3F;
+  }
+
+  &__menu-hint {
+    font-size: 24rpx;
+    color: #999;
+    margin-right: 8rpx;
+  }
+
+  &__menu-arrow {
+    font-size: 28rpx;
+    color: #CCC;
+    font-weight: 300;
+  }
+
+  // Mock
+  &__mock {
+    text-align: center;
+    padding: 16rpx;
+  }
+
+  &__mock-text {
+    font-size: 22rpx;
+    color: #CCC;
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.3; transform: scale(1) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.3) rotate(15deg); }
+}
+
+@keyframes ringPulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.1); opacity: 1; }
+}

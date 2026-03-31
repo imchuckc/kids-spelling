@@ -1,0 +1,3615 @@
+[
+  {
+    "id": "cat",
+    "word": "cat",
+    "zh": "猫",
+    "img": "animals/cat",
+    "audio": "words/cat",
+    "category": "animals",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have a cat.",
+        "zh": "我有一只猫。"
+      },
+      {
+        "en": "The cat is sleeping.",
+        "zh": "猫在睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "dog",
+    "word": "dog",
+    "zh": "狗",
+    "img": "animals/dog",
+    "audio": "words/dog",
+    "category": "animals",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The dog is happy.",
+        "zh": "这只狗很开心。"
+      },
+      {
+        "en": "I like dogs.",
+        "zh": "我喜欢狗。"
+      }
+    ]
+  },
+  {
+    "id": "pig",
+    "word": "pig",
+    "zh": "猪",
+    "img": "animals/pig",
+    "audio": "words/pig",
+    "category": "animals",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The pig is pink.",
+        "zh": "猪是粉红色的。"
+      }
+    ]
+  },
+  {
+    "id": "cow",
+    "word": "cow",
+    "zh": "牛",
+    "img": "animals/cow",
+    "audio": "words/cow",
+    "category": "animals",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The cow is on the farm.",
+        "zh": "牛在农场上。"
+      }
+    ]
+  },
+  {
+    "id": "hen",
+    "word": "hen",
+    "zh": "母鸡",
+    "img": "animals/hen",
+    "audio": "words/hen",
+    "category": "animals",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The hen has eggs.",
+        "zh": "母鸡有鸡蛋。"
+      }
+    ]
+  },
+  {
+    "id": "bee",
+    "word": "bee",
+    "zh": "蜜蜂",
+    "img": "animals/bee",
+    "audio": "words/bee",
+    "category": "animals",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The bee is small.",
+        "zh": "蜜蜂很小。"
+      }
+    ]
+  },
+  {
+    "id": "ant",
+    "word": "ant",
+    "zh": "蚂蚁",
+    "img": "animals/ant",
+    "audio": "words/ant",
+    "category": "animals",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The ant is tiny.",
+        "zh": "蚂蚁很小。"
+      }
+    ]
+  },
+  {
+    "id": "eye",
+    "word": "eye",
+    "zh": "眼睛",
+    "img": "body/eye",
+    "audio": "words/eye",
+    "category": "body",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have two eyes.",
+        "zh": "我有两只眼睛。"
+      }
+    ]
+  },
+  {
+    "id": "ear",
+    "word": "ear",
+    "zh": "耳朵",
+    "img": "body/ear",
+    "audio": "words/ear",
+    "category": "body",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have two ears.",
+        "zh": "我有两只耳朵。"
+      }
+    ]
+  },
+  {
+    "id": "leg",
+    "word": "leg",
+    "zh": "腿",
+    "img": "body/leg",
+    "audio": "words/leg",
+    "category": "body",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have two legs.",
+        "zh": "我有两条腿。"
+      }
+    ]
+  },
+  {
+    "id": "arm",
+    "word": "arm",
+    "zh": "手臂",
+    "img": "body/arm",
+    "audio": "words/arm",
+    "category": "body",
+    "level": 1,
+    "examples": [
+      {
+        "en": "Wave your arms.",
+        "zh": "挥动你的胳膊。"
+      }
+    ]
+  },
+  {
+    "id": "egg",
+    "word": "egg",
+    "zh": "鸡蛋",
+    "img": "food/egg",
+    "audio": "words/egg",
+    "category": "food",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I want an egg.",
+        "zh": "我想要一个鸡蛋。"
+      }
+    ]
+  },
+  {
+    "id": "pie",
+    "word": "pie",
+    "zh": "派",
+    "img": "food/pie",
+    "audio": "words/pie",
+    "category": "food",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I like pie.",
+        "zh": "我喜欢派。"
+      }
+    ]
+  },
+  {
+    "id": "pea",
+    "word": "pea",
+    "zh": "豌豆",
+    "img": "food/pea",
+    "audio": "words/pea",
+    "category": "food",
+    "level": 1,
+    "examples": [
+      {
+        "en": "Peas are green.",
+        "zh": "豌豆是绿色的。"
+      }
+    ]
+  },
+  {
+    "id": "nut",
+    "word": "nut",
+    "zh": "坚果",
+    "img": "food/nut",
+    "audio": "words/nut",
+    "category": "food",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I like nuts.",
+        "zh": "我喜欢坚果。"
+      }
+    ]
+  },
+  {
+    "id": "red",
+    "word": "red",
+    "zh": "红色",
+    "img": "colors/red",
+    "audio": "words/red",
+    "category": "colors",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The apple is red.",
+        "zh": "苹果是红色的。"
+      }
+    ]
+  },
+  {
+    "id": "blue",
+    "word": "blue",
+    "zh": "蓝色",
+    "img": "colors/blue",
+    "audio": "words/blue",
+    "category": "colors",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The sky is blue.",
+        "zh": "天空是蓝色的。"
+      }
+    ]
+  },
+  {
+    "id": "pink",
+    "word": "pink",
+    "zh": "粉色",
+    "img": "colors/pink",
+    "audio": "words/pink",
+    "category": "colors",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I like pink.",
+        "zh": "我喜欢粉色。"
+      }
+    ]
+  },
+  {
+    "id": "bed",
+    "word": "bed",
+    "zh": "床",
+    "img": "things/bed",
+    "audio": "words/bed",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "Go to bed!",
+        "zh": "去睡觉！"
+      }
+    ]
+  },
+  {
+    "id": "cup",
+    "word": "cup",
+    "zh": "杯子",
+    "img": "things/cup",
+    "audio": "words/cup",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have a cup.",
+        "zh": "我有一个杯子。"
+      }
+    ]
+  },
+  {
+    "id": "box",
+    "word": "box",
+    "zh": "盒子",
+    "img": "things/box",
+    "audio": "words/box",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "What's in the box?",
+        "zh": "盒子里有什么？"
+      }
+    ]
+  },
+  {
+    "id": "toy",
+    "word": "toy",
+    "zh": "玩具",
+    "img": "things/toy",
+    "audio": "words/toy",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have many toys.",
+        "zh": "我有很多玩具。"
+      }
+    ]
+  },
+  {
+    "id": "bus",
+    "word": "bus",
+    "zh": "公交",
+    "img": "things/bus",
+    "audio": "words/bus",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I go by bus.",
+        "zh": "我坐公交车去。"
+      }
+    ]
+  },
+  {
+    "id": "car",
+    "word": "car",
+    "zh": "汽车",
+    "img": "things/car",
+    "audio": "words/car",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "Dad has a car.",
+        "zh": "爸爸有一辆车。"
+      }
+    ]
+  },
+  {
+    "id": "hat",
+    "word": "hat",
+    "zh": "帽子",
+    "img": "clothes/hat",
+    "audio": "words/hat",
+    "category": "clothes",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have a red hat.",
+        "zh": "我有一顶红帽子。"
+      }
+    ]
+  },
+  {
+    "id": "bag",
+    "word": "bag",
+    "zh": "包",
+    "img": "things/bag",
+    "audio": "words/bag",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "This is my bag.",
+        "zh": "这是我的包。"
+      }
+    ]
+  },
+  {
+    "id": "pen",
+    "word": "pen",
+    "zh": "笔",
+    "img": "school/pen",
+    "audio": "words/pen",
+    "category": "school",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have a pen.",
+        "zh": "我有一支笔。"
+      }
+    ]
+  },
+  {
+    "id": "sun",
+    "word": "sun",
+    "zh": "太阳",
+    "img": "nature/sun",
+    "audio": "words/sun",
+    "category": "nature",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The sun is hot.",
+        "zh": "太阳很热。"
+      }
+    ]
+  },
+  {
+    "id": "key",
+    "word": "key",
+    "zh": "钥匙",
+    "img": "things/key",
+    "audio": "words/key",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "Where is the key?",
+        "zh": "钥匙在哪里？"
+      }
+    ]
+  },
+  {
+    "id": "map",
+    "word": "map",
+    "zh": "地图",
+    "img": "things/map",
+    "audio": "words/map",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "Look at the map.",
+        "zh": "看看地图。"
+      }
+    ]
+  },
+  {
+    "id": "net",
+    "word": "net",
+    "zh": "网",
+    "img": "things/net",
+    "audio": "words/net",
+    "category": "things",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have a net.",
+        "zh": "我有一个网。"
+      }
+    ]
+  },
+  {
+    "id": "mom",
+    "word": "mom",
+    "zh": "妈妈",
+    "img": "family/mom",
+    "audio": "words/mom",
+    "category": "family",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I love my mom.",
+        "zh": "我爱我的妈妈。"
+      }
+    ]
+  },
+  {
+    "id": "dad",
+    "word": "dad",
+    "zh": "爸爸",
+    "img": "family/dad",
+    "audio": "words/dad",
+    "category": "family",
+    "level": 1,
+    "examples": [
+      {
+        "en": "My dad is tall.",
+        "zh": "我的爸爸很高。"
+      }
+    ]
+  },
+  {
+    "id": "boy",
+    "word": "boy",
+    "zh": "男孩",
+    "img": "family/boy",
+    "audio": "words/boy",
+    "category": "family",
+    "level": 1,
+    "examples": [
+      {
+        "en": "The boy is happy.",
+        "zh": "男孩很开心。"
+      }
+    ]
+  },
+  {
+    "id": "one",
+    "word": "one",
+    "zh": "一",
+    "img": "numbers/one",
+    "audio": "words/one",
+    "category": "numbers",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have one book.",
+        "zh": "我有一本书。"
+      }
+    ]
+  },
+  {
+    "id": "two",
+    "word": "two",
+    "zh": "二",
+    "img": "numbers/two",
+    "audio": "words/two",
+    "category": "numbers",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have two eyes.",
+        "zh": "我有两只眼睛。"
+      }
+    ]
+  },
+  {
+    "id": "six",
+    "word": "six",
+    "zh": "六",
+    "img": "numbers/six",
+    "audio": "words/six",
+    "category": "numbers",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I am six years old.",
+        "zh": "我六岁了。"
+      }
+    ]
+  },
+  {
+    "id": "ten",
+    "word": "ten",
+    "zh": "十",
+    "img": "numbers/ten",
+    "audio": "words/ten",
+    "category": "numbers",
+    "level": 1,
+    "examples": [
+      {
+        "en": "I have ten fingers.",
+        "zh": "我有十个手指。"
+      }
+    ]
+  },
+  {
+    "id": "duck",
+    "word": "duck",
+    "zh": "鸭子",
+    "img": "animals/duck",
+    "audio": "words/duck",
+    "category": "animals",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The duck is yellow.",
+        "zh": "鸭子是黄色的。"
+      },
+      {
+        "en": "Ducks can swim.",
+        "zh": "鸭子会游泳。"
+      }
+    ]
+  },
+  {
+    "id": "bird",
+    "word": "bird",
+    "zh": "鸟",
+    "img": "animals/bird",
+    "audio": "words/bird",
+    "category": "animals",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The bird can fly.",
+        "zh": "鸟会飞。"
+      }
+    ]
+  },
+  {
+    "id": "fish",
+    "word": "fish",
+    "zh": "鱼",
+    "img": "animals/fish",
+    "audio": "words/fish",
+    "category": "animals",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The fish is in the water.",
+        "zh": "鱼在水里。"
+      }
+    ]
+  },
+  {
+    "id": "bear",
+    "word": "bear",
+    "zh": "熊",
+    "img": "animals/bear",
+    "audio": "words/bear",
+    "category": "animals",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The bear is big.",
+        "zh": "熊很大。"
+      },
+      {
+        "en": "I have a teddy bear.",
+        "zh": "我有一只泰迪熊。"
+      }
+    ]
+  },
+  {
+    "id": "frog",
+    "word": "frog",
+    "zh": "青蛙",
+    "img": "animals/frog",
+    "audio": "words/frog",
+    "category": "animals",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The frog can jump.",
+        "zh": "青蛙会跳。"
+      }
+    ]
+  },
+  {
+    "id": "goat",
+    "word": "goat",
+    "zh": "山羊",
+    "img": "animals/goat",
+    "audio": "words/goat",
+    "category": "animals",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The goat is on the hill.",
+        "zh": "山羊在山上。"
+      }
+    ]
+  },
+  {
+    "id": "lamb",
+    "word": "lamb",
+    "zh": "小羊",
+    "img": "animals/lamb",
+    "audio": "words/lamb",
+    "category": "animals",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The lamb is white.",
+        "zh": "小羊是白色的。"
+      }
+    ]
+  },
+  {
+    "id": "head",
+    "word": "head",
+    "zh": "头",
+    "img": "body/head",
+    "audio": "words/head",
+    "category": "body",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Touch your head.",
+        "zh": "摸摸你的头。"
+      }
+    ]
+  },
+  {
+    "id": "hand",
+    "word": "hand",
+    "zh": "手",
+    "img": "body/hand",
+    "audio": "words/hand",
+    "category": "body",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Clap your hands.",
+        "zh": "拍拍你的手。"
+      }
+    ]
+  },
+  {
+    "id": "face",
+    "word": "face",
+    "zh": "脸",
+    "img": "body/face",
+    "audio": "words/face",
+    "category": "body",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Wash your face.",
+        "zh": "洗洗你的脸。"
+      }
+    ]
+  },
+  {
+    "id": "foot",
+    "word": "foot",
+    "zh": "脚",
+    "img": "body/foot",
+    "audio": "words/foot",
+    "category": "body",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Stamp your feet.",
+        "zh": "跺跺你的脚。"
+      }
+    ]
+  },
+  {
+    "id": "nose",
+    "word": "nose",
+    "zh": "鼻子",
+    "img": "body/nose",
+    "audio": "words/nose",
+    "category": "body",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Touch your nose.",
+        "zh": "摸摸你的鼻子。"
+      }
+    ]
+  },
+  {
+    "id": "hair",
+    "word": "hair",
+    "zh": "头发",
+    "img": "body/hair",
+    "audio": "words/hair",
+    "category": "body",
+    "level": 2,
+    "examples": [
+      {
+        "en": "She has long hair.",
+        "zh": "她有长头发。"
+      }
+    ]
+  },
+  {
+    "id": "tail",
+    "word": "tail",
+    "zh": "尾巴",
+    "img": "body/tail",
+    "audio": "words/tail",
+    "category": "body",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The dog has a long tail.",
+        "zh": "狗有一条长尾巴。"
+      }
+    ]
+  },
+  {
+    "id": "cake",
+    "word": "cake",
+    "zh": "蛋糕",
+    "img": "food/cake",
+    "audio": "words/cake",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I like cake.",
+        "zh": "我喜欢蛋糕。"
+      },
+      {
+        "en": "This is a birthday cake.",
+        "zh": "这是生日蛋糕。"
+      }
+    ]
+  },
+  {
+    "id": "milk",
+    "word": "milk",
+    "zh": "牛奶",
+    "img": "food/milk",
+    "audio": "words/milk",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I drink milk every day.",
+        "zh": "我每天喝牛奶。"
+      }
+    ]
+  },
+  {
+    "id": "rice",
+    "word": "rice",
+    "zh": "米饭",
+    "img": "food/rice",
+    "audio": "words/rice",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I have rice for lunch.",
+        "zh": "我午饭吃米饭。"
+      }
+    ]
+  },
+  {
+    "id": "meat",
+    "word": "meat",
+    "zh": "肉",
+    "img": "food/meat",
+    "audio": "words/meat",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I like meat.",
+        "zh": "我喜欢肉。"
+      }
+    ]
+  },
+  {
+    "id": "bean",
+    "word": "bean",
+    "zh": "豆子",
+    "img": "food/bean",
+    "audio": "words/bean",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I like beans.",
+        "zh": "我喜欢豆子。"
+      }
+    ]
+  },
+  {
+    "id": "corn",
+    "word": "corn",
+    "zh": "玉米",
+    "img": "food/corn",
+    "audio": "words/corn",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I like corn.",
+        "zh": "我喜欢玉米。"
+      }
+    ]
+  },
+  {
+    "id": "pear",
+    "word": "pear",
+    "zh": "梨",
+    "img": "food/pear",
+    "audio": "words/pear",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "This pear is sweet.",
+        "zh": "这个梨很甜。"
+      }
+    ]
+  },
+  {
+    "id": "plum",
+    "word": "plum",
+    "zh": "李子",
+    "img": "food/plum",
+    "audio": "words/plum",
+    "category": "food",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The plum is purple.",
+        "zh": "李子是紫色的。"
+      }
+    ]
+  },
+  {
+    "id": "green",
+    "word": "green",
+    "zh": "绿色",
+    "img": "colors/green",
+    "audio": "words/green",
+    "category": "colors",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The frog is green.",
+        "zh": "青蛙是绿色的。"
+      }
+    ]
+  },
+  {
+    "id": "black",
+    "word": "black",
+    "zh": "黑色",
+    "img": "colors/black",
+    "audio": "words/black",
+    "category": "colors",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The cat is black.",
+        "zh": "猫是黑色的。"
+      }
+    ]
+  },
+  {
+    "id": "white",
+    "word": "white",
+    "zh": "白色",
+    "img": "colors/white",
+    "audio": "words/white",
+    "category": "colors",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Milk is white.",
+        "zh": "牛奶是白色的。"
+      }
+    ]
+  },
+  {
+    "id": "brown",
+    "word": "brown",
+    "zh": "棕色",
+    "img": "colors/brown",
+    "audio": "words/brown",
+    "category": "colors",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The bear is brown.",
+        "zh": "熊是棕色的。"
+      }
+    ]
+  },
+  {
+    "id": "four",
+    "word": "four",
+    "zh": "四",
+    "img": "numbers/four",
+    "audio": "words/four",
+    "category": "numbers",
+    "level": 2,
+    "examples": [
+      {
+        "en": "A dog has four legs.",
+        "zh": "狗有四条腿。"
+      }
+    ]
+  },
+  {
+    "id": "five",
+    "word": "five",
+    "zh": "五",
+    "img": "numbers/five",
+    "audio": "words/five",
+    "category": "numbers",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I have five fingers.",
+        "zh": "我有五个手指。"
+      }
+    ]
+  },
+  {
+    "id": "nine",
+    "word": "nine",
+    "zh": "九",
+    "img": "numbers/nine",
+    "audio": "words/nine",
+    "category": "numbers",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I can count to nine.",
+        "zh": "我能数到九。"
+      }
+    ]
+  },
+  {
+    "id": "ball",
+    "word": "ball",
+    "zh": "球",
+    "img": "things/ball",
+    "audio": "words/ball",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Kick the ball!",
+        "zh": "踢球！"
+      }
+    ]
+  },
+  {
+    "id": "doll",
+    "word": "doll",
+    "zh": "娃娃",
+    "img": "things/doll",
+    "audio": "words/doll",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I have a doll.",
+        "zh": "我有一个洋娃娃。"
+      }
+    ]
+  },
+  {
+    "id": "kite",
+    "word": "kite",
+    "zh": "风筝",
+    "img": "things/kite",
+    "audio": "words/kite",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I can fly a kite.",
+        "zh": "我会放风筝。"
+      }
+    ]
+  },
+  {
+    "id": "boat",
+    "word": "boat",
+    "zh": "船",
+    "img": "things/boat",
+    "audio": "words/boat",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The boat is on the water.",
+        "zh": "船在水上。"
+      }
+    ]
+  },
+  {
+    "id": "book",
+    "word": "book",
+    "zh": "书",
+    "img": "school/book",
+    "audio": "words/book",
+    "category": "school",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I like reading books.",
+        "zh": "我喜欢读书。"
+      }
+    ]
+  },
+  {
+    "id": "door",
+    "word": "door",
+    "zh": "门",
+    "img": "things/door",
+    "audio": "words/door",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Open the door.",
+        "zh": "开门。"
+      }
+    ]
+  },
+  {
+    "id": "bell",
+    "word": "bell",
+    "zh": "铃铛",
+    "img": "things/bell",
+    "audio": "words/bell",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Ring the bell.",
+        "zh": "摇铃铛。"
+      }
+    ]
+  },
+  {
+    "id": "tree",
+    "word": "tree",
+    "zh": "树",
+    "img": "nature/tree",
+    "audio": "words/tree",
+    "category": "nature",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The tree is tall.",
+        "zh": "树很高。"
+      }
+    ]
+  },
+  {
+    "id": "star",
+    "word": "star",
+    "zh": "星星",
+    "img": "nature/star",
+    "audio": "words/star",
+    "category": "nature",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I can see the stars.",
+        "zh": "我能看到星星。"
+      }
+    ]
+  },
+  {
+    "id": "lamp",
+    "word": "lamp",
+    "zh": "台灯",
+    "img": "things/lamp",
+    "audio": "words/lamp",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Turn on the lamp.",
+        "zh": "开台灯。"
+      }
+    ]
+  },
+  {
+    "id": "desk",
+    "word": "desk",
+    "zh": "书桌",
+    "img": "school/desk",
+    "audio": "words/desk",
+    "category": "school",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The book is on the desk.",
+        "zh": "书在桌子上。"
+      }
+    ]
+  },
+  {
+    "id": "shoe",
+    "word": "shoe",
+    "zh": "鞋子",
+    "img": "clothes/shoe",
+    "audio": "words/shoe",
+    "category": "clothes",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Put on your shoes.",
+        "zh": "穿上你的鞋子。"
+      }
+    ]
+  },
+  {
+    "id": "sock",
+    "word": "sock",
+    "zh": "袜子",
+    "img": "clothes/sock",
+    "audio": "words/sock",
+    "category": "clothes",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I have white socks.",
+        "zh": "我有白色的袜子。"
+      }
+    ]
+  },
+  {
+    "id": "girl",
+    "word": "girl",
+    "zh": "女孩",
+    "img": "family/girl",
+    "audio": "words/girl",
+    "category": "family",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The girl has a red dress.",
+        "zh": "女孩穿着红裙子。"
+      }
+    ]
+  },
+  {
+    "id": "baby",
+    "word": "baby",
+    "zh": "宝宝",
+    "img": "family/baby",
+    "audio": "words/baby",
+    "category": "family",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The baby is small.",
+        "zh": "宝宝很小。"
+      }
+    ]
+  },
+  {
+    "id": "home",
+    "word": "home",
+    "zh": "家",
+    "img": "places/home",
+    "audio": "words/home",
+    "category": "places",
+    "level": 2,
+    "examples": [
+      {
+        "en": "I go home.",
+        "zh": "我回家。"
+      }
+    ]
+  },
+  {
+    "id": "park",
+    "word": "park",
+    "zh": "公园",
+    "img": "places/park",
+    "audio": "words/park",
+    "category": "places",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Let's go to the park.",
+        "zh": "我们去公园吧。"
+      }
+    ]
+  },
+  {
+    "id": "shop",
+    "word": "shop",
+    "zh": "商店",
+    "img": "places/shop",
+    "audio": "words/shop",
+    "category": "places",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Let's go to the shop.",
+        "zh": "我们去商店吧。"
+      }
+    ]
+  },
+  {
+    "id": "rain",
+    "word": "rain",
+    "zh": "雨",
+    "img": "nature/rain",
+    "audio": "words/rain",
+    "category": "nature",
+    "level": 2,
+    "examples": [
+      {
+        "en": "It's raining today.",
+        "zh": "今天下雨了。"
+      }
+    ]
+  },
+  {
+    "id": "snow",
+    "word": "snow",
+    "zh": "雪",
+    "img": "nature/snow",
+    "audio": "words/snow",
+    "category": "nature",
+    "level": 2,
+    "examples": [
+      {
+        "en": "It's snowing!",
+        "zh": "下雪了！"
+      }
+    ]
+  },
+  {
+    "id": "wind",
+    "word": "wind",
+    "zh": "风",
+    "img": "nature/wind",
+    "audio": "words/wind",
+    "category": "nature",
+    "level": 2,
+    "examples": [
+      {
+        "en": "The wind is strong.",
+        "zh": "风很大。"
+      }
+    ]
+  },
+  {
+    "id": "song",
+    "word": "song",
+    "zh": "歌",
+    "img": "things/song",
+    "audio": "words/song",
+    "category": "things",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Sing a song!",
+        "zh": "唱首歌！"
+      }
+    ]
+  },
+  {
+    "id": "game",
+    "word": "game",
+    "zh": "游戏",
+    "img": "sports/game",
+    "audio": "words/game",
+    "category": "sports",
+    "level": 2,
+    "examples": [
+      {
+        "en": "Let's play a game!",
+        "zh": "我们玩个游戏吧！"
+      }
+    ]
+  },
+  {
+    "id": "mouse",
+    "word": "mouse",
+    "zh": "老鼠",
+    "img": "animals/mouse",
+    "audio": "words/mouse",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The mouse is small.",
+        "zh": "老鼠很小。"
+      }
+    ]
+  },
+  {
+    "id": "snake",
+    "word": "snake",
+    "zh": "蛇",
+    "img": "animals/snake",
+    "audio": "words/snake",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The snake is long.",
+        "zh": "蛇很长。"
+      }
+    ]
+  },
+  {
+    "id": "horse",
+    "word": "horse",
+    "zh": "马",
+    "img": "animals/horse",
+    "audio": "words/horse",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I can ride a horse.",
+        "zh": "我会骑马。"
+      }
+    ]
+  },
+  {
+    "id": "sheep",
+    "word": "sheep",
+    "zh": "羊",
+    "img": "animals/sheep",
+    "audio": "words/sheep",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I can see five sheep.",
+        "zh": "我能看到五只羊。"
+      }
+    ]
+  },
+  {
+    "id": "tiger",
+    "word": "tiger",
+    "zh": "老虎",
+    "img": "animals/tiger",
+    "audio": "words/tiger",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The tiger is big.",
+        "zh": "老虎很大。"
+      }
+    ]
+  },
+  {
+    "id": "zebra",
+    "word": "zebra",
+    "zh": "斑马",
+    "img": "animals/zebra",
+    "audio": "words/zebra",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The zebra is black and white.",
+        "zh": "斑马是黑白色的。"
+      }
+    ]
+  },
+  {
+    "id": "panda",
+    "word": "panda",
+    "zh": "熊猫",
+    "img": "animals/panda",
+    "audio": "words/panda",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The panda eats bamboo.",
+        "zh": "熊猫吃竹子。"
+      }
+    ]
+  },
+  {
+    "id": "hippo",
+    "word": "hippo",
+    "zh": "河马",
+    "img": "animals/hippo",
+    "audio": "words/hippo",
+    "category": "animals",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Hippos like water.",
+        "zh": "河马喜欢水。"
+      }
+    ]
+  },
+  {
+    "id": "mouth",
+    "word": "mouth",
+    "zh": "嘴巴",
+    "img": "body/mouth",
+    "audio": "words/mouth",
+    "category": "body",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Open your mouth.",
+        "zh": "张开你的嘴巴。"
+      }
+    ]
+  },
+  {
+    "id": "teeth",
+    "word": "teeth",
+    "zh": "牙齿",
+    "img": "body/teeth",
+    "audio": "words/teeth",
+    "category": "body",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Brush your teeth.",
+        "zh": "刷刷你的牙齿。"
+      }
+    ]
+  },
+  {
+    "id": "neck",
+    "word": "neck",
+    "zh": "脖子",
+    "img": "body/neck",
+    "audio": "words/neck",
+    "category": "body",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Giraffes have long necks.",
+        "zh": "长颈鹿有长脖子。"
+      }
+    ]
+  },
+  {
+    "id": "apple",
+    "word": "apple",
+    "zh": "苹果",
+    "img": "food/apple",
+    "audio": "words/apple",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I like apples.",
+        "zh": "我喜欢苹果。"
+      },
+      {
+        "en": "The apple is red.",
+        "zh": "苹果是红色的。"
+      }
+    ]
+  },
+  {
+    "id": "grape",
+    "word": "grape",
+    "zh": "葡萄",
+    "img": "food/grape",
+    "audio": "words/grape",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The grapes are purple.",
+        "zh": "葡萄是紫色的。"
+      }
+    ]
+  },
+  {
+    "id": "lemon",
+    "word": "lemon",
+    "zh": "柠檬",
+    "img": "food/lemon",
+    "audio": "words/lemon",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Lemons are sour.",
+        "zh": "柠檬是酸的。"
+      }
+    ]
+  },
+  {
+    "id": "mango",
+    "word": "mango",
+    "zh": "芒果",
+    "img": "food/mango",
+    "audio": "words/mango",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The mango is sweet.",
+        "zh": "芒果很甜。"
+      }
+    ]
+  },
+  {
+    "id": "bread",
+    "word": "bread",
+    "zh": "面包",
+    "img": "food/bread",
+    "audio": "words/bread",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I like bread.",
+        "zh": "我喜欢面包。"
+      }
+    ]
+  },
+  {
+    "id": "candy",
+    "word": "candy",
+    "zh": "糖果",
+    "img": "food/candy",
+    "audio": "words/candy",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I want some candy.",
+        "zh": "我想要一些糖果。"
+      }
+    ]
+  },
+  {
+    "id": "juice",
+    "word": "juice",
+    "zh": "果汁",
+    "img": "food/juice",
+    "audio": "words/juice",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I like orange juice.",
+        "zh": "我喜欢橙汁。"
+      }
+    ]
+  },
+  {
+    "id": "water",
+    "word": "water",
+    "zh": "水",
+    "img": "food/water",
+    "audio": "words/water",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I want some water.",
+        "zh": "我想要一些水。"
+      }
+    ]
+  },
+  {
+    "id": "chips",
+    "word": "chips",
+    "zh": "薯条",
+    "img": "food/chips",
+    "audio": "words/chips",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I like chips.",
+        "zh": "我喜欢薯条。"
+      }
+    ]
+  },
+  {
+    "id": "pizza",
+    "word": "pizza",
+    "zh": "披萨",
+    "img": "food/pizza",
+    "audio": "words/pizza",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Let's eat pizza!",
+        "zh": "我们吃披萨吧！"
+      }
+    ]
+  },
+  {
+    "id": "salad",
+    "word": "salad",
+    "zh": "沙拉",
+    "img": "food/salad",
+    "audio": "words/salad",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I like salad.",
+        "zh": "我喜欢沙拉。"
+      }
+    ]
+  },
+  {
+    "id": "pasta",
+    "word": "pasta",
+    "zh": "意面",
+    "img": "food/pasta",
+    "audio": "words/pasta",
+    "category": "food",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I like pasta.",
+        "zh": "我喜欢意面。"
+      }
+    ]
+  },
+  {
+    "id": "yellow",
+    "word": "yellow",
+    "zh": "黄色",
+    "img": "colors/yellow",
+    "audio": "words/yellow",
+    "category": "colors",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The banana is yellow.",
+        "zh": "香蕉是黄色的。"
+      }
+    ]
+  },
+  {
+    "id": "purple",
+    "word": "purple",
+    "zh": "紫色",
+    "img": "colors/purple",
+    "audio": "words/purple",
+    "category": "colors",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I like purple.",
+        "zh": "我喜欢紫色。"
+      }
+    ]
+  },
+  {
+    "id": "orange_c",
+    "word": "orange",
+    "zh": "橙色",
+    "img": "colors/orange_c",
+    "audio": "words/orange",
+    "category": "colors",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I have an orange hat.",
+        "zh": "我有一顶橙色的帽子。"
+      }
+    ]
+  },
+  {
+    "id": "gray",
+    "word": "gray",
+    "zh": "灰色",
+    "img": "colors/gray",
+    "audio": "words/gray",
+    "category": "colors",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The elephant is gray.",
+        "zh": "大象是灰色的。"
+      }
+    ]
+  },
+  {
+    "id": "three",
+    "word": "three",
+    "zh": "三",
+    "img": "numbers/three",
+    "audio": "words/three",
+    "category": "numbers",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I have three cats.",
+        "zh": "我有三只猫。"
+      }
+    ]
+  },
+  {
+    "id": "seven",
+    "word": "seven",
+    "zh": "七",
+    "img": "numbers/seven",
+    "audio": "words/seven",
+    "category": "numbers",
+    "level": 3,
+    "examples": [
+      {
+        "en": "There are seven days in a week.",
+        "zh": "一周有七天。"
+      }
+    ]
+  },
+  {
+    "id": "eight",
+    "word": "eight",
+    "zh": "八",
+    "img": "numbers/eight",
+    "audio": "words/eight",
+    "category": "numbers",
+    "level": 3,
+    "examples": [
+      {
+        "en": "A spider has eight legs.",
+        "zh": "蜘蛛有八条腿。"
+      }
+    ]
+  },
+  {
+    "id": "shirt",
+    "word": "shirt",
+    "zh": "衬衫",
+    "img": "clothes/shirt",
+    "audio": "words/shirt",
+    "category": "clothes",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I have a blue shirt.",
+        "zh": "我有一件蓝色衬衫。"
+      }
+    ]
+  },
+  {
+    "id": "dress",
+    "word": "dress",
+    "zh": "裙子",
+    "img": "clothes/dress",
+    "audio": "words/dress",
+    "category": "clothes",
+    "level": 3,
+    "examples": [
+      {
+        "en": "She has a nice dress.",
+        "zh": "她有一件漂亮的裙子。"
+      }
+    ]
+  },
+  {
+    "id": "skirt",
+    "word": "skirt",
+    "zh": "短裙",
+    "img": "clothes/skirt",
+    "audio": "words/skirt",
+    "category": "clothes",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The skirt is pink.",
+        "zh": "裙子是粉色的。"
+      }
+    ]
+  },
+  {
+    "id": "boots",
+    "word": "boots",
+    "zh": "靴子",
+    "img": "clothes/boots",
+    "audio": "words/boots",
+    "category": "clothes",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I wear boots when it rains.",
+        "zh": "下雨时我穿靴子。"
+      }
+    ]
+  },
+  {
+    "id": "scarf",
+    "word": "scarf",
+    "zh": "围巾",
+    "img": "clothes/scarf",
+    "audio": "words/scarf",
+    "category": "clothes",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I have a warm scarf.",
+        "zh": "我有一条暖围巾。"
+      }
+    ]
+  },
+  {
+    "id": "pants",
+    "word": "pants",
+    "zh": "裤子",
+    "img": "clothes/pants",
+    "audio": "words/pants",
+    "category": "clothes",
+    "level": 3,
+    "examples": [
+      {
+        "en": "My pants are blue.",
+        "zh": "我的裤子是蓝色的。"
+      }
+    ]
+  },
+  {
+    "id": "plane",
+    "word": "plane",
+    "zh": "飞机",
+    "img": "things/plane",
+    "audio": "words/plane",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The plane is in the sky.",
+        "zh": "飞机在天上。"
+      }
+    ]
+  },
+  {
+    "id": "train",
+    "word": "train",
+    "zh": "火车",
+    "img": "things/train",
+    "audio": "words/train",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The train is fast.",
+        "zh": "火车很快。"
+      }
+    ]
+  },
+  {
+    "id": "truck",
+    "word": "truck",
+    "zh": "卡车",
+    "img": "things/truck",
+    "audio": "words/truck",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The truck is big.",
+        "zh": "卡车很大。"
+      }
+    ]
+  },
+  {
+    "id": "clock",
+    "word": "clock",
+    "zh": "钟",
+    "img": "school/clock",
+    "audio": "words/clock",
+    "category": "school",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Look at the clock.",
+        "zh": "看看钟。"
+      }
+    ]
+  },
+  {
+    "id": "chair",
+    "word": "chair",
+    "zh": "椅子",
+    "img": "school/chair",
+    "audio": "words/chair",
+    "category": "school",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Sit on the chair.",
+        "zh": "坐在椅子上。"
+      }
+    ]
+  },
+  {
+    "id": "table",
+    "word": "table",
+    "zh": "桌子",
+    "img": "things/table",
+    "audio": "words/table",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The book is on the table.",
+        "zh": "书在桌子上。"
+      }
+    ]
+  },
+  {
+    "id": "phone",
+    "word": "phone",
+    "zh": "电话",
+    "img": "things/phone",
+    "audio": "words/phone",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Mom has a phone.",
+        "zh": "妈妈有一部手机。"
+      }
+    ]
+  },
+  {
+    "id": "watch",
+    "word": "watch",
+    "zh": "手表",
+    "img": "things/watch",
+    "audio": "words/watch",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I have a new watch.",
+        "zh": "我有一块新手表。"
+      }
+    ]
+  },
+  {
+    "id": "photo",
+    "word": "photo",
+    "zh": "照片",
+    "img": "things/photo",
+    "audio": "words/photo",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "This is a family photo.",
+        "zh": "这是一张全家福。"
+      }
+    ]
+  },
+  {
+    "id": "piano",
+    "word": "piano",
+    "zh": "钢琴",
+    "img": "things/piano",
+    "audio": "words/piano",
+    "category": "things",
+    "level": 3,
+    "examples": [
+      {
+        "en": "She plays the piano.",
+        "zh": "她弹钢琴。"
+      }
+    ]
+  },
+  {
+    "id": "house",
+    "word": "house",
+    "zh": "房子",
+    "img": "places/house",
+    "audio": "words/house",
+    "category": "places",
+    "level": 3,
+    "examples": [
+      {
+        "en": "This is my house.",
+        "zh": "这是我的房子。"
+      }
+    ]
+  },
+  {
+    "id": "beach",
+    "word": "beach",
+    "zh": "海滩",
+    "img": "places/beach",
+    "audio": "words/beach",
+    "category": "places",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Let's go to the beach!",
+        "zh": "我们去海滩吧！"
+      }
+    ]
+  },
+  {
+    "id": "farm",
+    "word": "farm",
+    "zh": "农场",
+    "img": "places/farm",
+    "audio": "words/farm",
+    "category": "places",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I can see cows on the farm.",
+        "zh": "我能看到农场上有牛。"
+      }
+    ]
+  },
+  {
+    "id": "zoo",
+    "word": "zoo",
+    "zh": "动物园",
+    "img": "places/zoo",
+    "audio": "words/zoo",
+    "category": "places",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Let's go to the zoo!",
+        "zh": "我们去动物园吧！"
+      }
+    ]
+  },
+  {
+    "id": "friend",
+    "word": "friend",
+    "zh": "朋友",
+    "img": "family/friend",
+    "audio": "words/friend",
+    "category": "family",
+    "level": 3,
+    "examples": [
+      {
+        "en": "She is my friend.",
+        "zh": "她是我的朋友。"
+      }
+    ]
+  },
+  {
+    "id": "sister",
+    "word": "sister",
+    "zh": "姐妹",
+    "img": "family/sister",
+    "audio": "words/sister",
+    "category": "family",
+    "level": 3,
+    "examples": [
+      {
+        "en": "This is my sister.",
+        "zh": "这是我的姐妹。"
+      }
+    ]
+  },
+  {
+    "id": "cloud",
+    "word": "cloud",
+    "zh": "云",
+    "img": "nature/cloud",
+    "audio": "words/cloud",
+    "category": "nature",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The cloud is white.",
+        "zh": "云是白色的。"
+      }
+    ]
+  },
+  {
+    "id": "sea",
+    "word": "sea",
+    "zh": "大海",
+    "img": "nature/sea",
+    "audio": "words/sea",
+    "category": "nature",
+    "level": 3,
+    "examples": [
+      {
+        "en": "The sea is blue.",
+        "zh": "大海是蓝色的。"
+      }
+    ]
+  },
+  {
+    "id": "moon",
+    "word": "moon",
+    "zh": "月亮",
+    "img": "nature/moon",
+    "audio": "words/moon",
+    "category": "nature",
+    "level": 3,
+    "examples": [
+      {
+        "en": "Look at the moon!",
+        "zh": "看月亮！"
+      }
+    ]
+  },
+  {
+    "id": "shell",
+    "word": "shell",
+    "zh": "贝壳",
+    "img": "nature/shell",
+    "audio": "words/shell",
+    "category": "nature",
+    "level": 3,
+    "examples": [
+      {
+        "en": "I found a shell on the beach.",
+        "zh": "我在海滩上找到一个贝壳。"
+      }
+    ]
+  },
+  {
+    "id": "sport",
+    "word": "sport",
+    "zh": "运动",
+    "img": "sports/sport",
+    "audio": "words/sport",
+    "category": "sports",
+    "level": 3,
+    "examples": [
+      {
+        "en": "What sport do you like?",
+        "zh": "你喜欢什么运动？"
+      }
+    ]
+  },
+  {
+    "id": "rabbit",
+    "word": "rabbit",
+    "zh": "兔子",
+    "img": "animals/rabbit",
+    "audio": "words/rabbit",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Rabbits can jump.",
+        "zh": "兔子会跳。"
+      },
+      {
+        "en": "The rabbit is white.",
+        "zh": "兔子是白色的。"
+      }
+    ]
+  },
+  {
+    "id": "monkey",
+    "word": "monkey",
+    "zh": "猴子",
+    "img": "animals/monkey",
+    "audio": "words/monkey",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Monkeys like bananas.",
+        "zh": "猴子喜欢香蕉。"
+      }
+    ]
+  },
+  {
+    "id": "spider",
+    "word": "spider",
+    "zh": "蜘蛛",
+    "img": "animals/spider",
+    "audio": "words/spider",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "A spider has eight legs.",
+        "zh": "蜘蛛有八条腿。"
+      }
+    ]
+  },
+  {
+    "id": "donkey",
+    "word": "donkey",
+    "zh": "驴",
+    "img": "animals/donkey",
+    "audio": "words/donkey",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The donkey is gray.",
+        "zh": "驴子是灰色的。"
+      }
+    ]
+  },
+  {
+    "id": "lizard",
+    "word": "lizard",
+    "zh": "蜥蜴",
+    "img": "animals/lizard",
+    "audio": "words/lizard",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The lizard is green.",
+        "zh": "蜥蜴是绿色的。"
+      }
+    ]
+  },
+  {
+    "id": "parrot",
+    "word": "parrot",
+    "zh": "鹦鹉",
+    "img": "animals/parrot",
+    "audio": "words/parrot",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Parrots can talk.",
+        "zh": "鹦鹉会说话。"
+      }
+    ]
+  },
+  {
+    "id": "turtle",
+    "word": "turtle",
+    "zh": "乌龟",
+    "img": "animals/turtle",
+    "audio": "words/turtle",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The turtle is slow.",
+        "zh": "乌龟很慢。"
+      }
+    ]
+  },
+  {
+    "id": "kitten",
+    "word": "kitten",
+    "zh": "小猫",
+    "img": "animals/kitten",
+    "audio": "words/kitten",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The kitten is cute.",
+        "zh": "小猫很可爱。"
+      }
+    ]
+  },
+  {
+    "id": "puppy",
+    "word": "puppy",
+    "zh": "小狗",
+    "img": "animals/puppy",
+    "audio": "words/puppy",
+    "category": "animals",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The puppy is playful.",
+        "zh": "小狗很爱玩。"
+      }
+    ]
+  },
+  {
+    "id": "finger",
+    "word": "finger",
+    "zh": "手指",
+    "img": "body/finger",
+    "audio": "words/finger",
+    "category": "body",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I have ten fingers.",
+        "zh": "我有十个手指。"
+      }
+    ]
+  },
+  {
+    "id": "shoulder",
+    "word": "shoulder",
+    "zh": "肩膀",
+    "img": "body/shoulder",
+    "audio": "words/shoulder",
+    "category": "body",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Touch your shoulders.",
+        "zh": "摸摸你的肩膀。"
+      }
+    ]
+  },
+  {
+    "id": "banana",
+    "word": "banana",
+    "zh": "香蕉",
+    "img": "food/banana",
+    "audio": "words/banana",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The banana is yellow.",
+        "zh": "香蕉是黄色的。"
+      }
+    ]
+  },
+  {
+    "id": "orange",
+    "word": "orange",
+    "zh": "橙子",
+    "img": "food/orange",
+    "audio": "words/orange",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Can I have an orange?",
+        "zh": "我能要一个橙子吗？"
+      }
+    ]
+  },
+  {
+    "id": "tomato",
+    "word": "tomato",
+    "zh": "番茄",
+    "img": "food/tomato",
+    "audio": "words/tomato",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The tomato is red.",
+        "zh": "番茄是红色的。"
+      }
+    ]
+  },
+  {
+    "id": "potato",
+    "word": "potato",
+    "zh": "土豆",
+    "img": "food/potato",
+    "audio": "words/potato",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I like potatoes.",
+        "zh": "我喜欢土豆。"
+      }
+    ]
+  },
+  {
+    "id": "carrot",
+    "word": "carrot",
+    "zh": "胡萝卜",
+    "img": "food/carrot",
+    "audio": "words/carrot",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Rabbits like carrots.",
+        "zh": "兔子喜欢胡萝卜。"
+      }
+    ]
+  },
+  {
+    "id": "burger",
+    "word": "burger",
+    "zh": "汉堡",
+    "img": "food/burger",
+    "audio": "words/burger",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I want a burger.",
+        "zh": "我想要一个汉堡。"
+      }
+    ]
+  },
+  {
+    "id": "cheese",
+    "word": "cheese",
+    "zh": "奶酪",
+    "img": "food/cheese",
+    "audio": "words/cheese",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Mice like cheese.",
+        "zh": "老鼠喜欢奶酪。"
+      }
+    ]
+  },
+  {
+    "id": "cookie",
+    "word": "cookie",
+    "zh": "饼干",
+    "img": "food/cookie",
+    "audio": "words/cookie",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Can I have a cookie?",
+        "zh": "我能要一块饼干吗？"
+      }
+    ]
+  },
+  {
+    "id": "noodle",
+    "word": "noodles",
+    "zh": "面条",
+    "img": "food/noodle",
+    "audio": "words/noodles",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Noodles are yummy.",
+        "zh": "面条很好吃。"
+      }
+    ]
+  },
+  {
+    "id": "chicken",
+    "word": "chicken",
+    "zh": "鸡肉",
+    "img": "food/chicken",
+    "audio": "words/chicken",
+    "category": "food",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I like chicken.",
+        "zh": "我喜欢鸡肉。"
+      }
+    ]
+  },
+  {
+    "id": "jacket",
+    "word": "jacket",
+    "zh": "夹克",
+    "img": "clothes/jacket",
+    "audio": "words/jacket",
+    "category": "clothes",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Put on your jacket.",
+        "zh": "穿上你的夹克。"
+      }
+    ]
+  },
+  {
+    "id": "shorts",
+    "word": "shorts",
+    "zh": "短裤",
+    "img": "clothes/shorts",
+    "audio": "words/shorts",
+    "category": "clothes",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I wear shorts in summer.",
+        "zh": "夏天我穿短裤。"
+      }
+    ]
+  },
+  {
+    "id": "gloves",
+    "word": "gloves",
+    "zh": "手套",
+    "img": "clothes/gloves",
+    "audio": "words/gloves",
+    "category": "clothes",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I wear gloves in winter.",
+        "zh": "冬天我戴手套。"
+      }
+    ]
+  },
+  {
+    "id": "pencil",
+    "word": "pencil",
+    "zh": "铅笔",
+    "img": "school/pencil",
+    "audio": "words/pencil",
+    "category": "school",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I have a pencil.",
+        "zh": "我有一支铅笔。"
+      }
+    ]
+  },
+  {
+    "id": "ruler",
+    "word": "ruler",
+    "zh": "尺子",
+    "img": "school/ruler",
+    "audio": "words/ruler",
+    "category": "school",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I have a ruler.",
+        "zh": "我有一把尺子。"
+      }
+    ]
+  },
+  {
+    "id": "eraser",
+    "word": "eraser",
+    "zh": "橡皮",
+    "img": "school/eraser",
+    "audio": "words/eraser",
+    "category": "school",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Can I use your eraser?",
+        "zh": "我能用你的橡皮吗？"
+      }
+    ]
+  },
+  {
+    "id": "crayon",
+    "word": "crayon",
+    "zh": "蜡笔",
+    "img": "school/crayon",
+    "audio": "words/crayon",
+    "category": "school",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I have many crayons.",
+        "zh": "我有很多蜡笔。"
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "word": "school",
+    "zh": "学校",
+    "img": "school/school",
+    "audio": "words/school",
+    "category": "school",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I like my school.",
+        "zh": "我喜欢我的学校。"
+      }
+    ]
+  },
+  {
+    "id": "paper",
+    "word": "paper",
+    "zh": "纸",
+    "img": "school/paper",
+    "audio": "words/paper",
+    "category": "school",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I need some paper.",
+        "zh": "我需要一些纸。"
+      }
+    ]
+  },
+  {
+    "id": "window",
+    "word": "window",
+    "zh": "窗户",
+    "img": "things/window",
+    "audio": "words/window",
+    "category": "things",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Open the window.",
+        "zh": "开窗。"
+      }
+    ]
+  },
+  {
+    "id": "mirror",
+    "word": "mirror",
+    "zh": "镜子",
+    "img": "things/mirror",
+    "audio": "words/mirror",
+    "category": "things",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I can see myself in the mirror.",
+        "zh": "我能在镜子里看到自己。"
+      }
+    ]
+  },
+  {
+    "id": "camera",
+    "word": "camera",
+    "zh": "相机",
+    "img": "things/camera",
+    "audio": "words/camera",
+    "category": "things",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Take a photo with the camera.",
+        "zh": "用相机拍照。"
+      }
+    ]
+  },
+  {
+    "id": "guitar",
+    "word": "guitar",
+    "zh": "吉他",
+    "img": "things/guitar",
+    "audio": "words/guitar",
+    "category": "things",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I can play the guitar.",
+        "zh": "我会弹吉他。"
+      }
+    ]
+  },
+  {
+    "id": "robot",
+    "word": "robot",
+    "zh": "机器人",
+    "img": "things/robot",
+    "audio": "words/robot",
+    "category": "things",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I have a toy robot.",
+        "zh": "我有一个玩具机器人。"
+      }
+    ]
+  },
+  {
+    "id": "bottle",
+    "word": "bottle",
+    "zh": "瓶子",
+    "img": "things/bottle",
+    "audio": "words/bottle",
+    "category": "things",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I have a bottle of water.",
+        "zh": "我有一瓶水。"
+      }
+    ]
+  },
+  {
+    "id": "basket",
+    "word": "basket",
+    "zh": "篮子",
+    "img": "things/basket",
+    "audio": "words/basket",
+    "category": "things",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The fruit is in the basket.",
+        "zh": "水果在篮子里。"
+      }
+    ]
+  },
+  {
+    "id": "garden",
+    "word": "garden",
+    "zh": "花园",
+    "img": "places/garden",
+    "audio": "words/garden",
+    "category": "places",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I play in the garden.",
+        "zh": "我在花园里玩。"
+      }
+    ]
+  },
+  {
+    "id": "street",
+    "word": "street",
+    "zh": "街道",
+    "img": "places/street",
+    "audio": "words/street",
+    "category": "places",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I live on this street.",
+        "zh": "我住在这条街上。"
+      }
+    ]
+  },
+  {
+    "id": "forest",
+    "word": "forest",
+    "zh": "森林",
+    "img": "places/forest",
+    "audio": "words/forest",
+    "category": "places",
+    "level": 4,
+    "examples": [
+      {
+        "en": "There are many trees in the forest.",
+        "zh": "森林里有很多树。"
+      }
+    ]
+  },
+  {
+    "id": "bridge",
+    "word": "bridge",
+    "zh": "桥",
+    "img": "places/bridge",
+    "audio": "words/bridge",
+    "category": "places",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Walk across the bridge.",
+        "zh": "走过桥。"
+      }
+    ]
+  },
+  {
+    "id": "brother",
+    "word": "brother",
+    "zh": "兄弟",
+    "img": "family/brother",
+    "audio": "words/brother",
+    "category": "family",
+    "level": 4,
+    "examples": [
+      {
+        "en": "This is my brother.",
+        "zh": "这是我的兄弟。"
+      }
+    ]
+  },
+  {
+    "id": "grandma",
+    "word": "grandma",
+    "zh": "奶奶",
+    "img": "family/grandma",
+    "audio": "words/grandma",
+    "category": "family",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I love my grandma.",
+        "zh": "我爱我的奶奶。"
+      }
+    ]
+  },
+  {
+    "id": "grandpa",
+    "word": "grandpa",
+    "zh": "爷爷",
+    "img": "family/grandpa",
+    "audio": "words/grandpa",
+    "category": "family",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Grandpa tells me stories.",
+        "zh": "爷爷给我讲故事。"
+      }
+    ]
+  },
+  {
+    "id": "teacher",
+    "word": "teacher",
+    "zh": "老师",
+    "img": "family/teacher",
+    "audio": "words/teacher",
+    "category": "family",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The teacher is nice.",
+        "zh": "老师很好。"
+      }
+    ]
+  },
+  {
+    "id": "doctor",
+    "word": "doctor",
+    "zh": "医生",
+    "img": "family/doctor",
+    "audio": "words/doctor",
+    "category": "family",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The doctor is kind.",
+        "zh": "医生很和蔼。"
+      }
+    ]
+  },
+  {
+    "id": "farmer",
+    "word": "farmer",
+    "zh": "农民",
+    "img": "family/farmer",
+    "audio": "words/farmer",
+    "category": "family",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The farmer has a cow.",
+        "zh": "农民有一头牛。"
+      }
+    ]
+  },
+  {
+    "id": "flower",
+    "word": "flower",
+    "zh": "花",
+    "img": "nature/flower",
+    "audio": "words/flower",
+    "category": "nature",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The flower is beautiful.",
+        "zh": "花很美。"
+      }
+    ]
+  },
+  {
+    "id": "river",
+    "word": "river",
+    "zh": "河",
+    "img": "nature/river",
+    "audio": "words/river",
+    "category": "nature",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The river is long.",
+        "zh": "河很长。"
+      }
+    ]
+  },
+  {
+    "id": "island",
+    "word": "island",
+    "zh": "岛屿",
+    "img": "nature/island",
+    "audio": "words/island",
+    "category": "nature",
+    "level": 4,
+    "examples": [
+      {
+        "en": "The island is small.",
+        "zh": "岛屿很小。"
+      }
+    ]
+  },
+  {
+    "id": "plant",
+    "word": "plant",
+    "zh": "植物",
+    "img": "nature/plant",
+    "audio": "words/plant",
+    "category": "nature",
+    "level": 4,
+    "examples": [
+      {
+        "en": "Water the plant.",
+        "zh": "浇浇植物。"
+      }
+    ]
+  },
+  {
+    "id": "tennis",
+    "word": "tennis",
+    "zh": "网球",
+    "img": "sports/tennis",
+    "audio": "words/tennis",
+    "category": "sports",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I play tennis.",
+        "zh": "我打网球。"
+      }
+    ]
+  },
+  {
+    "id": "hockey",
+    "word": "hockey",
+    "zh": "曲棍球",
+    "img": "sports/hockey",
+    "audio": "words/hockey",
+    "category": "sports",
+    "level": 4,
+    "examples": [
+      {
+        "en": "I like hockey.",
+        "zh": "我喜欢曲棍球。"
+      }
+    ]
+  },
+  {
+    "id": "giraffe",
+    "word": "giraffe",
+    "zh": "长颈鹿",
+    "img": "animals/giraffe",
+    "audio": "words/giraffe",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The giraffe is tall.",
+        "zh": "长颈鹿很高。"
+      }
+    ]
+  },
+  {
+    "id": "elephant",
+    "word": "elephant",
+    "zh": "大象",
+    "img": "animals/elephant",
+    "audio": "words/elephant",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Elephants have big ears.",
+        "zh": "大象有大耳朵。"
+      }
+    ]
+  },
+  {
+    "id": "penguin",
+    "word": "penguin",
+    "zh": "企鹅",
+    "img": "animals/penguin",
+    "audio": "words/penguin",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Penguins like the snow.",
+        "zh": "企鹅喜欢雪。"
+      }
+    ]
+  },
+  {
+    "id": "dolphin",
+    "word": "dolphin",
+    "zh": "海豚",
+    "img": "animals/dolphin",
+    "audio": "words/dolphin",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Dolphins are very clever.",
+        "zh": "海豚非常聪明。"
+      }
+    ]
+  },
+  {
+    "id": "crocodile",
+    "word": "crocodile",
+    "zh": "鳄鱼",
+    "img": "animals/crocodile",
+    "audio": "words/crocodile",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The crocodile is in the river.",
+        "zh": "鳄鱼在河里。"
+      }
+    ]
+  },
+  {
+    "id": "kangaroo",
+    "word": "kangaroo",
+    "zh": "袋鼠",
+    "img": "animals/kangaroo",
+    "audio": "words/kangaroo",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Kangaroos can jump very far.",
+        "zh": "袋鼠能跳得很远。"
+      }
+    ]
+  },
+  {
+    "id": "squirrel",
+    "word": "squirrel",
+    "zh": "松鼠",
+    "img": "animals/squirrel",
+    "audio": "words/squirrel",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The squirrel is in the tree.",
+        "zh": "松鼠在树上。"
+      }
+    ]
+  },
+  {
+    "id": "jellyfish",
+    "word": "jellyfish",
+    "zh": "水母",
+    "img": "animals/jellyfish",
+    "audio": "words/jellyfish",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I can see a jellyfish in the sea.",
+        "zh": "我能看到海里有水母。"
+      }
+    ]
+  },
+  {
+    "id": "butterfly",
+    "word": "butterfly",
+    "zh": "蝴蝶",
+    "img": "animals/butterfly",
+    "audio": "words/butterfly",
+    "category": "animals",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The butterfly is beautiful.",
+        "zh": "蝴蝶很美。"
+      }
+    ]
+  },
+  {
+    "id": "chocolate",
+    "word": "chocolate",
+    "zh": "巧克力",
+    "img": "food/chocolate",
+    "audio": "words/chocolate",
+    "category": "food",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I love chocolate.",
+        "zh": "我爱巧克力。"
+      }
+    ]
+  },
+  {
+    "id": "pineapple",
+    "word": "pineapple",
+    "zh": "菠萝",
+    "img": "food/pineapple",
+    "audio": "words/pineapple",
+    "category": "food",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I like pineapple.",
+        "zh": "我喜欢菠萝。"
+      }
+    ]
+  },
+  {
+    "id": "watermelon",
+    "word": "watermelon",
+    "zh": "西瓜",
+    "img": "food/watermelon",
+    "audio": "words/watermelon",
+    "category": "food",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Watermelon is sweet.",
+        "zh": "西瓜很甜。"
+      }
+    ]
+  },
+  {
+    "id": "sandwich",
+    "word": "sandwich",
+    "zh": "三明治",
+    "img": "food/sandwich",
+    "audio": "words/sandwich",
+    "category": "food",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I have a sandwich for lunch.",
+        "zh": "我午饭吃三明治。"
+      }
+    ]
+  },
+  {
+    "id": "sausage",
+    "word": "sausage",
+    "zh": "香肠",
+    "img": "food/sausage",
+    "audio": "words/sausage",
+    "category": "food",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I like sausages.",
+        "zh": "我喜欢香肠。"
+      }
+    ]
+  },
+  {
+    "id": "ice_cream",
+    "word": "ice cream",
+    "zh": "冰淇淋",
+    "img": "food/ice_cream",
+    "audio": "words/ice cream",
+    "category": "food",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I love ice cream!",
+        "zh": "我爱冰淇淋！"
+      }
+    ]
+  },
+  {
+    "id": "lemonade",
+    "word": "lemonade",
+    "zh": "柠檬水",
+    "img": "food/lemonade",
+    "audio": "words/lemonade",
+    "category": "food",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I want some lemonade.",
+        "zh": "我想要一些柠檬水。"
+      }
+    ]
+  },
+  {
+    "id": "glasses",
+    "word": "glasses",
+    "zh": "眼镜",
+    "img": "clothes/glasses",
+    "audio": "words/glasses",
+    "category": "clothes",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Grandpa wears glasses.",
+        "zh": "爷爷戴眼镜。"
+      }
+    ]
+  },
+  {
+    "id": "sweater",
+    "word": "sweater",
+    "zh": "毛衣",
+    "img": "clothes/sweater",
+    "audio": "words/sweater",
+    "category": "clothes",
+    "level": 5,
+    "examples": [
+      {
+        "en": "My sweater is warm.",
+        "zh": "我的毛衣很暖和。"
+      }
+    ]
+  },
+  {
+    "id": "umbrella",
+    "word": "umbrella",
+    "zh": "雨伞",
+    "img": "clothes/umbrella",
+    "audio": "words/umbrella",
+    "category": "clothes",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Take your umbrella.",
+        "zh": "带上你的雨伞。"
+      }
+    ]
+  },
+  {
+    "id": "computer",
+    "word": "computer",
+    "zh": "电脑",
+    "img": "school/computer",
+    "audio": "words/computer",
+    "category": "school",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I play on the computer.",
+        "zh": "我在电脑上玩。"
+      }
+    ]
+  },
+  {
+    "id": "library",
+    "word": "library",
+    "zh": "图书馆",
+    "img": "school/library",
+    "audio": "words/library",
+    "category": "school",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I read books in the library.",
+        "zh": "我在图书馆里看书。"
+      }
+    ]
+  },
+  {
+    "id": "notebook",
+    "word": "notebook",
+    "zh": "笔记本",
+    "img": "school/notebook",
+    "audio": "words/notebook",
+    "category": "school",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Write in your notebook.",
+        "zh": "写在你的笔记本上。"
+      }
+    ]
+  },
+  {
+    "id": "bookcase",
+    "word": "bookcase",
+    "zh": "书柜",
+    "img": "school/bookcase",
+    "audio": "words/bookcase",
+    "category": "school",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The books are in the bookcase.",
+        "zh": "书在书柜里。"
+      }
+    ]
+  },
+  {
+    "id": "balloon",
+    "word": "balloon",
+    "zh": "气球",
+    "img": "things/balloon",
+    "audio": "words/balloon",
+    "category": "things",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I have a red balloon.",
+        "zh": "我有一个红色的气球。"
+      }
+    ]
+  },
+  {
+    "id": "helicopter",
+    "word": "helicopter",
+    "zh": "直升机",
+    "img": "things/helicopter",
+    "audio": "words/helicopter",
+    "category": "things",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I can see a helicopter.",
+        "zh": "我能看到一架直升机。"
+      }
+    ]
+  },
+  {
+    "id": "picture",
+    "word": "picture",
+    "zh": "图画",
+    "img": "things/picture",
+    "audio": "words/picture",
+    "category": "things",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Draw a picture.",
+        "zh": "画一幅画。"
+      }
+    ]
+  },
+  {
+    "id": "present",
+    "word": "present",
+    "zh": "礼物",
+    "img": "things/present",
+    "audio": "words/present",
+    "category": "things",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Thank you for the present!",
+        "zh": "谢谢你的礼物！"
+      }
+    ]
+  },
+  {
+    "id": "blanket",
+    "word": "blanket",
+    "zh": "毯子",
+    "img": "things/blanket",
+    "audio": "words/blanket",
+    "category": "things",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The blanket is warm.",
+        "zh": "毯子很暖和。"
+      }
+    ]
+  },
+  {
+    "id": "bicycle",
+    "word": "bicycle",
+    "zh": "自行车",
+    "img": "things/bicycle",
+    "audio": "words/bicycle",
+    "category": "things",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I can ride a bicycle.",
+        "zh": "我会骑自行车。"
+      }
+    ]
+  },
+  {
+    "id": "kitchen",
+    "word": "kitchen",
+    "zh": "厨房",
+    "img": "places/kitchen",
+    "audio": "words/kitchen",
+    "category": "places",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Mom is in the kitchen.",
+        "zh": "妈妈在厨房里。"
+      }
+    ]
+  },
+  {
+    "id": "bedroom",
+    "word": "bedroom",
+    "zh": "卧室",
+    "img": "places/bedroom",
+    "audio": "words/bedroom",
+    "category": "places",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I sleep in my bedroom.",
+        "zh": "我在卧室睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "bathroom",
+    "word": "bathroom",
+    "zh": "浴室",
+    "img": "places/bathroom",
+    "audio": "words/bathroom",
+    "category": "places",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Wash your hands in the bathroom.",
+        "zh": "在浴室洗手。"
+      }
+    ]
+  },
+  {
+    "id": "hospital",
+    "word": "hospital",
+    "zh": "医院",
+    "img": "places/hospital",
+    "audio": "words/hospital",
+    "category": "places",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The doctor is in the hospital.",
+        "zh": "医生在医院里。"
+      }
+    ]
+  },
+  {
+    "id": "mountain",
+    "word": "mountain",
+    "zh": "山",
+    "img": "places/mountain",
+    "audio": "words/mountain",
+    "category": "places",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The mountain is very high.",
+        "zh": "山非常高。"
+      }
+    ]
+  },
+  {
+    "id": "village",
+    "word": "village",
+    "zh": "村庄",
+    "img": "places/village",
+    "audio": "words/village",
+    "category": "places",
+    "level": 5,
+    "examples": [
+      {
+        "en": "The village is small.",
+        "zh": "村庄很小。"
+      }
+    ]
+  },
+  {
+    "id": "rainbow",
+    "word": "rainbow",
+    "zh": "彩虹",
+    "img": "nature/rainbow",
+    "audio": "words/rainbow",
+    "category": "nature",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I can see a rainbow!",
+        "zh": "我能看到彩虹！"
+      }
+    ]
+  },
+  {
+    "id": "football",
+    "word": "football",
+    "zh": "足球",
+    "img": "sports/football",
+    "audio": "words/football",
+    "category": "sports",
+    "level": 5,
+    "examples": [
+      {
+        "en": "Let's play football!",
+        "zh": "我们踢足球吧！"
+      }
+    ]
+  },
+  {
+    "id": "basketball",
+    "word": "basketball",
+    "zh": "篮球",
+    "img": "sports/basketball",
+    "audio": "words/basketball",
+    "category": "sports",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I play basketball.",
+        "zh": "我打篮球。"
+      }
+    ]
+  },
+  {
+    "id": "baseball",
+    "word": "baseball",
+    "zh": "棒球",
+    "img": "sports/baseball",
+    "audio": "words/baseball",
+    "category": "sports",
+    "level": 5,
+    "examples": [
+      {
+        "en": "I play baseball.",
+        "zh": "我打棒球。"
+      }
+    ]
+  }
+]

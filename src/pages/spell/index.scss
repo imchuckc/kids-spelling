@@ -1,0 +1,113 @@
+.spell {
+  min-height: 100vh;
+  padding: 20rpx 30rpx 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__loading {
+    margin-top: 300rpx;
+    font-size: 32rpx;
+    color: #8888AA;
+  }
+
+  // Image area
+  &__image-area {
+    width: 320rpx;
+    height: 320rpx;
+    border-radius: 32rpx;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8rpx 30rpx rgba(124, 92, 252, 0.1);
+    margin-bottom: 30rpx;
+    position: relative;
+    animation: fadeInUp 0.3s ease-out;
+  }
+
+  &__emoji {
+    font-size: 120rpx;
+  }
+
+  &__zh {
+    font-size: 34rpx;
+    color: #8888AA;
+    margin-top: 8rpx;
+  }
+
+  &__sound-btn {
+    position: absolute;
+    bottom: 16rpx;
+    right: 16rpx;
+    width: 56rpx;
+    height: 56rpx;
+    border-radius: 50%;
+    background: #F0EBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__sound-icon {
+    font-size: 28rpx;
+  }
+
+  // Letter slots
+  &__slots {
+    display: flex;
+    gap: 16rpx;
+    margin-bottom: 40rpx;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__slot {
+    width: 72rpx;
+    height: 80rpx;
+    border-radius: 16rpx;
+    background: rgba(255, 255, 255, 0.6);
+    border: 4rpx dashed #C4B5FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+
+    &--active {
+      border-color: #7C5CFC;
+      border-style: solid;
+      animation: pulse 1.5s ease-in-out infinite;
+      background: rgba(255, 255, 255, 0.9);
+    }
+
+    &--filled {
+      border: 4rpx solid #6BCB77;
+      background: #EAFBEC;
+      animation: bounceIn 0.3s ease-out;
+    }
+  }
+
+  &__slot-text {
+    font-size: 40rpx;
+    font-weight: 800;
+    color: #6BCB77;
+  }
+
+  // Letter bubbles
+  &__bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20rpx;
+    justify-content: center;
+    max-width: 600rpx;
+    margin-bottom: 30rpx;
+  }
+
+  // Hint
+  &__hint {
+    font-size: 28rpx;
+    color: #AAAACC;
+    margin-top: 10rpx;
+  }
+}
