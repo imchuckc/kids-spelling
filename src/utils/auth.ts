@@ -1,4 +1,5 @@
 import Taro from '@tarojs/taro';
+import { isCloudReady, callCloudFunction, pullFromCloud, scheduleSyncToCloud } from './cloud';
 
 const KEYS = {
   USER_INFO: 'kids_spelling_user',
@@ -11,11 +12,11 @@ export interface UserInfo {
   openId: string;
 }
 
-const IS_MOCK = true;
-
 const MOCK_AVATARS = [
   'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI9FhqR65iaEzPKoKp6',
 ];
+
+// ── Read ─────────────────────────────────────────────────────
 
 export function getUser(): UserInfo | null {
   const info = Taro.getStorageSync(KEYS.USER_INFO) as UserInfo | '';
@@ -26,11 +27,13 @@ export function isLoggedIn(): boolean {
   return !!getUser();
 }
 
+// ── Login — picks cloud or mock automatically ────────────────
+
 export async function login(): Promise<UserInfo> {
-  if (IS_MOCK) {
-    return mockLogin();
+  if (isCloudReady()) {
+    return cloudLogin();
   }
-  return wxLogin();
+  return mockLogin();
 }
 
 async function mockLogin(): Promise<UserInfo> {
@@ -47,36 +50,49 @@ async function mockLogin(): Promise<UserInfo> {
   return user;
 }
 
-async function wxLogin(): Promise<UserInfo> {
-  // TODO: Real WeChat login flow
-  //
-  // 1. wx.login() to get code
-  // 2. Send code to backend to exchange for openid/session_key
-  // 3. wx.getUserProfile() to get user info (requires user tap)
-  // 4. Save to backend + local storage
-  //
-  // const { code } = await Taro.login();
-  // const res = await Taro.request({
-  //   url: 'https://your-server/api/login',
-  //   method: 'POST',
-  //   data: { code },
-  // });
-  // const { openId, sessionKey } = res.data;
-  // const { userInfo } = await Taro.getUserProfile({ desc: '用于个人中心展示' });
-  //
-  throw new Error('Real login not configured. Set IS_MOCK = true.');
+async function cloudLogin(): Promise<UserInfo> {
+  const result = await callCloudFunction<{
+    openId: string;
+    isNew: boolean;
+    user?: { nickName: string; avatarUrl: string };
+  }>('login');
+
+  if (!result?.openId) {
+    throw new Error('Cloud login failed');
+  }
+
+  const user: UserInfo = {
+    nickName: result.user?.nickName || '小朋友',
+    avatarUrl: result.user?.avatarUrl || '',
+    openId: result.openId,
+  };
+
+  Taro.setStorageSync(KEYS.USER_INFO, user);
+  Taro.setStorageSync(KEYS.LOGIN_TIME, Date.now());
+
+  // Pull remote data and merge with local on first login
+  await pullFromCloud();
+
+  return user;
 }
+
+// ── Logout ───────────────────────────────────────────────────
 
 export function logout(): void {
   Taro.removeStorageSync(KEYS.USER_INFO);
   Taro.removeStorageSync(KEYS.LOGIN_TIME);
 }
 
+// ── Profile updates — sync to cloud when available ───────────
+
 export function updateNickName(name: string): void {
   const user = getUser();
   if (user) {
     user.nickName = name;
     Taro.setStorageSync(KEYS.USER_INFO, user);
+    if (isCloudReady()) {
+      callCloudFunction('login', { nickName: name });
+    }
   }
 }
 
@@ -85,5 +101,8 @@ export function updateAvatar(url: string): void {
   if (user) {
     user.avatarUrl = url;
     Taro.setStorageSync(KEYS.USER_INFO, user);
+    if (isCloudReady()) {
+      callCloudFunction('login', { avatarUrl: url });
+    }
   }
 }

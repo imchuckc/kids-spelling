@@ -1,4 +1,5 @@
 import Taro from '@tarojs/taro';
+import { scheduleSyncToCloud } from './cloud';
 
 const KEYS = {
   STARS: 'kids_spelling_stars',
@@ -38,6 +39,7 @@ export function getTotalStars(): number {
 export function addStars(count: number): number {
   const total = getTotalStars() + count;
   Taro.setStorageSync(KEYS.STARS, total);
+  scheduleSyncToCloud();
   return total;
 }
 
@@ -50,6 +52,7 @@ export function addMasteredWord(wordId: string): void {
   if (!list.includes(wordId)) {
     list.push(wordId);
     Taro.setStorageSync(KEYS.MASTERED, list);
+    scheduleSyncToCloud();
   }
 }
 
@@ -67,6 +70,7 @@ export function updateDailyProgress(wordsCompleted: number): void {
   current.gamesPlayed += 1;
   current.date = todayStr();
   Taro.setStorageSync(KEYS.DAILY_PROGRESS, current);
+  scheduleSyncToCloud();
 }
 
 export function getCheckInDays(): string[] {
@@ -79,6 +83,7 @@ export function checkInToday(): string[] {
   if (!days.includes(today)) {
     days.push(today);
     Taro.setStorageSync(KEYS.CHECK_IN, days);
+    scheduleSyncToCloud();
   }
   return days;
 }
@@ -107,6 +112,7 @@ export function updateWordStat(wordId: string, correct: boolean): void {
   existing.lastReview = Date.now();
   stats[wordId] = existing;
   Taro.setStorageSync(KEYS.WORD_STATS, stats);
+  scheduleSyncToCloud();
 }
 
 export function getCustomWords() {
@@ -115,6 +121,7 @@ export function getCustomWords() {
 
 export function setCustomWords(words: any[]) {
   Taro.setStorageSync(KEYS.CUSTOM_WORDS, words);
+  scheduleSyncToCloud();
 }
 
 export function getSelectedCourse(): string {
@@ -123,4 +130,5 @@ export function getSelectedCourse(): string {
 
 export function setSelectedCourse(course: string): void {
   Taro.setStorageSync(KEYS.SELECTED_COURSE, course);
+  scheduleSyncToCloud();
 }

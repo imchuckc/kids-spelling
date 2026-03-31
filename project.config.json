@@ -1,5 +1,6 @@
 {
   "miniprogramRoot": "dist/",
+  "cloudfunctionRoot": "cloudfunctions/",
   "projectname": "kids-spelling",
   "description": "Kids English Spelling Game",
   "appid": "wxe98ab0a450a72081",
@@ -36,5 +37,6 @@
     "ignore": [],
     "include": []
   },
-  "editorSetting": {}
+  "editorSetting": {},
+  "libVersion": "3.15.1"
 }

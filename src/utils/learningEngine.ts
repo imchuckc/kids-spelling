@@ -10,6 +10,7 @@
 
 import Taro from '@tarojs/taro';
 import { getWordStats, type WordStat } from './storage';
+import { scheduleSyncToCloud } from './cloud';
 import type { WordItem } from '../hooks/useWordList';
 
 // --- Word mastery stages ---
@@ -57,6 +58,7 @@ function loadProgress(): Record<string, WordProgress> {
 
 function saveProgress(data: Record<string, WordProgress>): void {
   Taro.setStorageSync(STORAGE_KEY, data);
+  scheduleSyncToCloud();
 }
 
 // --- Stage calculation ---
